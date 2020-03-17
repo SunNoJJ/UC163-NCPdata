@@ -4,7 +4,7 @@ import time
 import re
 import csv
 import os
-tt = 'https://user.qzone.qq.com/383817842/infocenter'
+
 
 browser = webdriver.Firefox()
 
