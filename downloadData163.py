@@ -19,7 +19,7 @@ browser = webdriver.Chrome(executable_path=r'D:\Program Files (x86)\chromedriver
 def validateString_list(chart_table_names,chart_table_confirms,chart_table_deads,chart_table_heals):
     dataList = []
     nowTime = time.strftime("%Y_%m_%d_%H_%M", time.localtime()) ##%Y_%m_%d_%H_%M_%S
-    with open("./CsvData/"+nowTime+'_163.csv', 'w', encoding='utf-8-sig', newline='') as csf:
+    with open("./CsvData/WY163/"+nowTime+'_163.csv', 'w', encoding='utf-8-sig', newline='') as csf:
         for i in range(len(chart_table_confirms)):
             data=[chart_table_names[i].replace("chart_table_name\">","").replace("chart_table_name \">","").replace("chart_table_name chart_table_name_long\">","").replace("</div",""),
                      chart_table_confirms[i].replace("chart_table_confirm\">","").replace("</div",""),

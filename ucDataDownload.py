@@ -19,7 +19,7 @@ def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirm
     num = re.compile(r'\d+')  # 查找数字
     dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡"]
     nowTime = time.strftime("%Y_%m_%d_%H_%M", time.localtime()) ##%Y_%m_%d_%H_%M_%S
-    with open("./CsvData/"+nowTime+'_uc.csv', 'w', encoding='utf-8-sig', newline='') as csf:
+    with open("./CsvData/UC/"+nowTime+'_uc.csv', 'w', encoding='utf-8-sig', newline='') as csf:
         writer = csv.writer(csf)
         writer.writerow(dataList)
         cell_inc = 4

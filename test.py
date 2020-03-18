@@ -36,7 +36,22 @@ def reText():
     # print(re.findall("([\u4e00-\u9fa5]*)?", strs))
     #
     # print(zh.findall( strs))
+def rePlaceList():
+    lis = ['HKN', 'TNN', '07:00', '07:35', '00:35', '', '有', '有', 'x', '', '', '', '', 'x', '18', '']
+    str = ['', 'x']
+    res = ["-" if x in str else x for x in lis]
+    print(res)
+    for i in range(len(lis)):
+        if lis[i] in str:
+            lis[i] = '-'
+    print(lis)
+
+    for index,name in enumerate(lis):
+        lis[index] = name.replace("_uc.csv",'')
+    print(lis)
+    list3 = [name.replace("_uc.csv",'') for name in lis]
+    print(list3,end="大幅度发")
 if __name__ == '__main__':
-    reText()
+    rePlaceList()
 
 
