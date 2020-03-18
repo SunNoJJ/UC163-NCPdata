@@ -12,12 +12,13 @@ print(file_list)
 
 def readCsv(list_f):
     for csvF in list_f:
-        with open(csvF, encoding='utf-8') as f:
+        with open(csvF, encoding='utf-8-sig') as f:
             reader = csv.reader(f)
             header = next(reader)
             print(header)
             for row in reader:
-                print(int(row[1]))
+                if row[0] == '法国':
+                    print(row)
 
 def plotPig():
     x = [1, 2, 3, 4, 5]
