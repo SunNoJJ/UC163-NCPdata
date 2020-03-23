@@ -52,41 +52,10 @@ def getInfo():
     mainUrl = "https://iflow.uc.cn/webview/article/newspecial.html?ab_tag_page_biz=,2872,2891,2818,1744,2793,2855,2662,2655,2658,2795,2130,2890,2824,2861,2869,2775,2154,2827,2803,_,2872_A,2891_A,2818_A,1744_B,2793_C,2855_A,2662_C,2655_C,2658_D,2795_D,2130_C,2890_E,2824_A,2861_A,2869_C,2775_A,2154_C,2827_F,2803_B,&uc_biz_str=S%3Acustom%7CC%3Atitlebar_hover_2&aid=3804775841868884355&cid=100&uc_param_str=lodndseiwifrvesvntgipf&sm_article_id=3804775841868884355&uc_h5_page_name=iflowspecial&feiyan=1&feiyan_jump=-3&external=1&app=uc-iflow&enterfrom=xxl-47haiwaicard&zzd_from=uc-iflow&dl_type=2&recoid=13764386211984591365&activity=1&activity2=1"
     time.sleep(1)
     browser.get(mainUrl)
-
     time.sleep(1)
     browser.find_element_by_class_name("expand-text").click()##模拟点击
     time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()  ##模拟点击
-
-    # time.sleep(1)
-    # browser.find_element_by_class_name("expand-text").click()##
-
+    browser.find_element_by_class_name("expand-text").click()
     time.sleep(5)
     pageSource = browser.page_source
     ## 国内 最短匹配：.*?

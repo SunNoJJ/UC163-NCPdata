@@ -1,7 +1,6 @@
 # conding：utf-8
 import re
 import csv
-import matplotlib.pyplot as plt
 
 def readCsv():
     with open('data.csv', encoding='utf-8') as f:
@@ -52,21 +51,7 @@ def rePlaceList():
     print(lis)
     list3 = [name.replace("_uc.csv",'') for name in lis]
     print(list3,end="大幅度发")
-def plotXY():
-    x = range(5)
-    y = [x1*x1 for x1 in x]
-    plt.plot(x,y)
-    plt.show()
-    y = [x1 for x1 in x]
-    plt.plot(x, y)
-    plt.show()
 if __name__ == '__main__':
-    a = 2
-    b = 1
-    h = ""
-
-    h = "变量1" if a > b else "变量2"
-
-    print(h)
+    rePlaceList()
 
 
