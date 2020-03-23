@@ -9,7 +9,7 @@ print(file_names)
 ## 文件名拼接路径
 file_list = [os.path.join("./CsvData/UC/",file) for file in file_names]
 print(file_list)
-country = "法国"
+country = "印度"
 def readCsv(list_f):
     now_confirms = [] ##现存确诊
     item_confirms = [] ##累计确诊1

@@ -1,5 +1,6 @@
 # coding: utf-8
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 import time
 import re
 import csv
@@ -54,9 +55,16 @@ def getInfo():
     browser.get(mainUrl)
     time.sleep(1)
     browser.find_element_by_class_name("expand-text").click()##模拟点击
-    time.sleep(1)
-    browser.find_element_by_class_name("expand-text").click()
-    time.sleep(5)
+
+    while True:
+        try:
+            browser.find_element_by_class_name("expand-text").click()##模拟点击
+            time.sleep(1)
+            print("正在点击。。。。。。。。")
+        except NoSuchElementException:
+            print("点击完成")
+            break
+    time.sleep(3)
     pageSource = browser.page_source
     ## 国内 最短匹配：.*?
     primary_cells = re.findall('(primary-cell.*?div)',pageSource)##地区2
