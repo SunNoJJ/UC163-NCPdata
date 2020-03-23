@@ -9,7 +9,7 @@ print(file_names)
 ## 文件名拼接路径
 file_list = [os.path.join("./CsvData/UC/",file) for file in file_names]
 print(file_list)
-country = "法国"
+country = "瑞典"
 def readCsv(list_f):
     now_confirms = [] ##现存确诊
     item_confirms = [] ##累计确诊1
@@ -23,11 +23,11 @@ def readCsv(list_f):
             print(header)
             for row in reader:
                 if row[0] == country:
-                    now_confirms.append(int(row[1]))
-                    item_confirms.append(int(row[2]))
-                    item_newconfirms.append(int(row[3]))
-                    item_deads.append(int(row[4]))
-                    item_heals.append(int(row[5]))
+                    now_confirms.append(int(0 if row[1]=="-" else row[1]))
+                    item_confirms.append(int(0 if row[2]=="-" else row[2]))
+                    item_newconfirms.append(int(0 if row[3]=="-" else row[3]))
+                    item_deads.append(int(0 if row[4]=="-" else row[4]))
+                    item_heals.append(int(0 if row[5]=="-" else row[5]))
     return now_confirms,item_confirms,item_newconfirms,item_deads,item_heals
 def plotHist(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals):
     x = range(len(now_confirms))
@@ -47,6 +47,9 @@ def plotHist(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals):
     plt.show()
 def plotBar(now_confirms, item_confirms, item_newconfirms, item_deads, item_heals):
     x = range(len(now_confirms))
+    plt.figure(figsize=(12, 8))## 图片大小
+    plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)## 设置图片边距
+
     ## 画图
     plt_now_confirms = plt.bar(x, now_confirms, width=0.2,label='现存确诊',color= "red")
     plt_item_confirms = plt.bar([i + 0.2 for i in x], item_confirms, width=0.2,label='累计确诊')
@@ -112,7 +115,7 @@ def plotRecent():
         plt.show()
 
 if __name__ == '__main__':
-    # now_confirms,item_confirms,item_newconfirms,item_deads,item_heals = readCsv(file_list)
-    # plotBar(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals)
-    plotRecent()
+    now_confirms,item_confirms,item_newconfirms,item_deads,item_heals = readCsv(file_list)
+    plotBar(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals)
+    # plotRecent()
 
