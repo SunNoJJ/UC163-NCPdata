@@ -9,7 +9,7 @@ print(file_names)
 ## 文件名拼接路径
 file_list = [os.path.join("./CsvData/UC/",file) for file in file_names]
 print(file_list)
-country = "印度"
+country = "湖北省"
 def readCsv(list_f):
     now_confirms = [] ##现存确诊
     item_confirms = [] ##累计确诊1
@@ -29,15 +29,23 @@ def readCsv(list_f):
                     item_deads.append(int(0 if row[4]=="-" else row[4]))
                     item_heals.append(int(0 if row[5]=="-" else row[5]))
     return now_confirms,item_confirms,item_newconfirms,item_deads,item_heals
+def plotTrend(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals):
+    x = range(len(now_confirms))
+    plt.plot(x,now_confirms,label='现存确诊')
+    plt.plot(x,item_confirms,label='累计确诊')
+    plt.plot(x,item_newconfirms,label='新增确诊')
+    plt.plot(x,item_deads,label='累计治愈')
+    plt.plot(x,item_heals,label='累计死亡')
+    ## 参数配置
+    plt.legend(loc='upper left')
+    plt.title(country + " 单位：人")
+    ## 将X轴显示为日期
+    xTicLis = file_names
+    plt.xticks(x, [name.replace("_uc.csv", '') for name in xTicLis], color='blue', rotation=15)
+    plt.yticks([])
+    plt.show()
 def plotHist(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals):
     x = range(len(now_confirms))
-    # plt.plot(x,now_confirms,label='现存确诊')
-    # plt.plot(x,item_confirms,label='累计确诊')
-    # plt.plot(x,item_newconfirms,label='新增确诊')
-    # plt.plot(x,item_deads,label='累计治愈')
-    # plt.plot(x,item_heals,label='累计死亡')
-    # plt.legend()
-    # plt.show()
     plt.hist(x, now_confirms, label='现存确诊')
     plt.hist(x, item_confirms, label='累计确诊')
     plt.hist(x, item_newconfirms, label='新增确诊')
@@ -47,7 +55,7 @@ def plotHist(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals):
     plt.show()
 def plotBar(now_confirms, item_confirms, item_newconfirms, item_deads, item_heals):
     x = range(len(now_confirms))
-    plt.figure(figsize=(12,8))## 设置图片大小
+    plt.figure(figsize=(12,6))## 设置图片大小
     # plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)## 设置图片边距
     ## 画图
     plt_now_confirms = plt.bar(x, now_confirms, width=0.2,label='现存确诊',color= "red")
@@ -89,4 +97,5 @@ def plotBar(now_confirms, item_confirms, item_newconfirms, item_deads, item_heal
 if __name__ == '__main__':
     now_confirms,item_confirms,item_newconfirms,item_deads,item_heals = readCsv(file_list)
     plotBar(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals)
+
 
