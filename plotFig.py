@@ -89,7 +89,7 @@ def plotBarList(value_list):
         plt.text(value.get_x() + value.get_width() / 2, height_now_confirms + 1, str(height_now_confirms),
                  ha="center", va="bottom",rotation=0)
     ## 参数配置
-    plt.title("今日新增 单位： 人")
+    plt.title("今日新增 单位：人人")
     ## 将X轴显示为国家名称
     plt.xticks(x, country_list, color='blue', rotation=0)
     plt.yticks([])
