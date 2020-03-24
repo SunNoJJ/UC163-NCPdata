@@ -10,7 +10,7 @@ print(file_names)
 file_list = [os.path.join("./CsvData/UC/",file) for file in file_names]
 print(file_list)
 country = "美国"
-country_list = ["美国","英国","伊朗","瑞典","丹麦","印度"]
+country_list = ["巴基斯坦","塞尔维亚","美国","意大利","西班牙","英国","伊朗","瑞典","丹麦","印度"]
 '''###################################
         读取单个文件中多个国家的今日新增
 ###################################'''
@@ -79,7 +79,7 @@ def plotHist(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals):
 def plotBarList(value_list):
     ## 画出某几个国家的今日新增
     x = range(len(value_list))
-    plt.figure(figsize=(12,6))## 设置图片大小
+    plt.figure(figsize=(8,4))## 设置图片大小
     # plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)## 设置图片边距
     ## 画图
     plt_now_confirms = plt.bar(x, value_list, width=0.2,label='现存确诊',color= "red")
@@ -87,11 +87,11 @@ def plotBarList(value_list):
     for index,value in enumerate(plt_now_confirms):
         height_now_confirms = value.get_height()
         plt.text(value.get_x() + value.get_width() / 2, height_now_confirms + 1, str(height_now_confirms),
-                 ha="center", va="bottom",rotation=-70)
+                 ha="center", va="bottom",rotation=0)
     ## 参数配置
     plt.title("今日新增 单位：人")
     ## 将X轴显示为国家名称
-    plt.xticks(x, country_list, color='blue', rotation=15)
+    plt.xticks(x, country_list, color='blue', rotation=0)
     plt.yticks([])
     ## 保存与展示
     plt.show()
