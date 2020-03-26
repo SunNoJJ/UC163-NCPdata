@@ -74,7 +74,7 @@ def plotHist(now_confirms,item_confirms,item_newconfirms,item_deads,item_heals):
     plt.show()
 
 '''###################################
-            画出某几个国家的今日新增
+            画出某几个国家的今日新增 
 ###################################'''
 def plotBarList(value_list):
     ## 画出某几个国家的今日新增
