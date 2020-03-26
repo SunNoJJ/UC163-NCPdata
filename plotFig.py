@@ -11,6 +11,7 @@ file_list = [os.path.join("./CsvData/UC/",file) for file in file_names]
 print(file_list)
 country = "美国"
 country_list = ["巴基斯坦","塞尔维亚","美国","意大利","西班牙","英国","伊朗","瑞典","丹麦","印度"]
+country_list_X = []
 '''###################################
         读取单个文件中多个国家的今日新增
 ###################################'''
@@ -22,6 +23,7 @@ def readCsvOne(csvF):
         print(header)
         for row in reader:
             if row[0] in country_list:
+                country_list_X.append(row[0])
                 value_list.append(int(0 if row[3] == "-" else row[3]))
     return  value_list
 '''###################################
@@ -91,7 +93,7 @@ def plotBarList(value_list):
     ## 参数配置
     plt.title("今日新增 单位：人人人人")
     ## 将X轴显示为国家名称
-    plt.xticks(x, country_list, color='blue', rotation=0)
+    plt.xticks(x, country_list_X, color='blue', rotation=0)
     plt.yticks([])
     ## 保存与展示
     plt.show()
