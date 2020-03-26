@@ -27,7 +27,7 @@ def readCsvOne(csvF):
                 value_list.append(int(0 if row[3] == "-" else row[3]))
     return  value_list
 '''###################################
-        读取所有文件中特定国家的数据
+        读取所有文件中特定国家的数据 
 ###################################'''
 def readCsvALL(list_f):
     now_confirms = [] ##现存确诊
