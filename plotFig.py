@@ -96,6 +96,7 @@ def plotBarList(value_list):
     plt.xticks(x, country_list_X, color='blue', rotation=0)
     plt.yticks([])
     ## 保存与展示
+    plt.savefig("./img/" + file_names[-1].replace(".csv","") + ".png")
     plt.show()
 '''###################################
             画某个国家多种数据走势bar图
