@@ -15,18 +15,20 @@ chrome_options.add_argument('--disable-gpu') #如果不加这个选项，有时�
 # 启动浏览器，获取网页源代码
 browser = webdriver.Chrome(executable_path=r'D:\Program Files (x86)\chromedriver.exe', chrome_options=chrome_options)
 
-def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirms,item_deads,item_heals):
+def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirms,item_deads,item_heals,population,sureRate):
     zh = re.compile(r'[\u4e00-\u9fa5]+')  # 查找中文
     num = re.compile(r'\d+')  # 查找数字
-    dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡"]
+    dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡","人口数","每10万人确诊"]
     nowTime = time.strftime("%Y_%m_%d_%H_%M", time.localtime()) ##%Y_%m_%d_%H_%M_%S
     with open("./CsvData/UC/"+nowTime+'_uc.csv', 'w', encoding='utf-8-sig', newline='') as csf:
         writer = csv.writer(csf)
         writer.writerow(dataList)
         cell_inc = 4
+        flage = 0  ##population,sureRate
         for i in range(len(primary_cells)):
             ##地区'primary-cell">湖北省</div'
             primary = zh.findall(primary_cells[i].replace("<br>", ""))[0]
+            print(i,"地区",primary,flage)
             ##现存确诊
             now_con = num.findall(re.findall("(<span>.*?span)", now_confirms[i])[0])[0]
             ##累计确诊 'second-cell"><span data-v-189f4250="">1356</span></div'
@@ -37,15 +39,20 @@ def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirm
             heals = re.findall("(>.*?<)", item_heals[i])[0].replace(">", "").replace("<", "")
             ##累计死亡'span-gray">3046</span' 'span-gray">-</span'
             deads = re.findall("(>.*?<)", item_deads[i])[0].replace(">", "").replace("<", "")
-
-
-            data=[primary,now_con,confirm,new_confirm,heals,deads]
-
+            if flage == 0:
+                data=[primary,now_con,confirm,new_confirm,heals,deads,"-","-"]
+            else:
+                populationcsv = re.findall("(>.*?<)", population[i-flage].replace("><", ""))[0].replace(">", "").replace("<", "")
+                sureRatecsv = re.findall("(>.*?<)", sureRate[i-flage].replace("><", ""))[0].replace(">", "").replace("<", "")
+                data = [primary, now_con, confirm, new_confirm, heals, deads,populationcsv,sureRatecsv]
             if "西藏自治区"==zh.findall( primary_cells[i].replace("<br>",""))[0]:
                 cell_inc = 5
+                flage = i
+                print("######flage:",flage)
             # dataList.append(data)
-
             writer.writerow(data)
+
+
 
 
 
@@ -73,8 +80,12 @@ def getInfo():
     item_newconfirms = re.findall('(cell-incr.*?/div)',pageSource)##新增确诊4
     item_deads = re.findall('(span-gray.*?span)', pageSource)##累计死亡1
     item_heals = re.findall('(span-green.*?span)', pageSource)  ##累计治愈1
+    population = re.findall('(row-population.*?万)',pageSource)  ##总人口数
+    sureRate = re.findall('(row-sureRate.*?div)', pageSource)  ##总人口数
 
-    validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirms,item_deads,item_heals)
+
+
+    validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirms,item_deads,item_heals,population,sureRate)
 
 
 if __name__ =="__main__":
