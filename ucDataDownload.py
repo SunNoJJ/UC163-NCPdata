@@ -18,7 +18,7 @@ browser = webdriver.Chrome(executable_path=r'D:\Program Files (x86)\chromedriver
 def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirms,item_deads,item_heals,population,sureRate):
     zh = re.compile(r'[\u4e00-\u9fa5]+')  # 查找中文
     num = re.compile(r'\d+')  # 查找数字
-    dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡","人口数","每10万人确诊"]
+    dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡","人口数（万）","每10万人确诊"]
     nowTime = time.strftime("%Y_%m_%d_%H_%M", time.localtime()) ##%Y_%m_%d_%H_%M_%S
     with open("./CsvData/UC/"+nowTime+'_uc.csv', 'w', encoding='utf-8-sig', newline='') as csf:
         writer = csv.writer(csf)
