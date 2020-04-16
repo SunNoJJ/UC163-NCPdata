@@ -30,20 +30,20 @@ def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirm
             primary = zh.findall(primary_cells[i].replace("<br>", ""))[0]
             print(i,"地区",primary,flage)
             ##现存确诊
-            now_con = num.findall(re.findall("(<span>.*?span)", now_confirms[i])[0])[0]
+            now_con = num.findall(re.findall("(<span>.*?span)", now_confirms[i])[0])[0].replace("-","-1")
             ##累计确诊 'second-cell"><span data-v-189f4250="">1356</span></div'
-            confirm = num.findall(re.findall("(<span>.*?span)",item_confirms[i])[0])[0]
+            confirm = num.findall(re.findall("(<span>.*?span)",item_confirms[i])[0])[0].replace("-","-1")
             ##新增确诊'cell-incr"><span data-v-eaacc57a="">4714</span>'
-            new_confirm = re.findall('(>.*?<)',item_newconfirms[i+cell_inc].replace("><",''))[0].replace('>',"").replace("<","")
+            new_confirm = re.findall('(>.*?<)',item_newconfirms[i+cell_inc].replace("><",''))[0].replace('>',"").replace("<","").replace("-","-1")
             ##累计治愈'span-green">49130</span'  'span-green">-</span'
-            heals = re.findall("(>.*?<)", item_heals[i])[0].replace(">", "").replace("<", "")
+            heals = re.findall("(>.*?<)", item_heals[i])[0].replace(">", "").replace("<", "").replace("-","-1")
             ##累计死亡'span-gray">3046</span' 'span-gray">-</span'
-            deads = re.findall("(>.*?<)", item_deads[i])[0].replace(">", "").replace("<", "")
+            deads = re.findall("(>.*?<)", item_deads[i])[0].replace(">", "").replace("<", "").replace("-","-1")
             if flage == 0:
-                data=[primary,now_con,confirm,new_confirm,heals,deads,"-","-"]
+                data=[primary,now_con,confirm,new_confirm,heals,deads,"-1","-1"]
             else:
-                populationcsv = re.findall("(>.*?<)", population[i-flage].replace("><", ""))[0].replace(">", "").replace("<", "")
-                sureRatecsv = re.findall("(>.*?<)", sureRate[i-flage].replace("><", ""))[0].replace(">", "").replace("<", "")
+                populationcsv = re.findall("(>.*?<)", population[i-flage].replace("><", ""))[0].replace(">", "").replace("<", "").replace("-","-1")
+                sureRatecsv = re.findall("(>.*?<)", sureRate[i-flage].replace("><", ""))[0].replace(">", "").replace("<", "").replace("-","-1")
                 data = [primary, now_con, confirm, new_confirm, heals, deads,populationcsv,sureRatecsv]
             if "西藏自治区"==zh.findall( primary_cells[i].replace("<br>",""))[0]:
                 cell_inc = 5
