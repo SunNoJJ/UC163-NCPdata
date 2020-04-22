@@ -38,6 +38,7 @@ def getInfo():
     browser.get(mainUrl)
     browser.get(mainUrl)
     time.sleep(5)
+
     pageSource = browser.page_source
     ## 国内 最长匹配
     item_names = re.findall('(item_name.*span)',pageSource)##地区
