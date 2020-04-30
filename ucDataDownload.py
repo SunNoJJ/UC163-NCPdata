@@ -18,7 +18,7 @@ browser = webdriver.Chrome(executable_path=r'D:\Program Files (x86)\chromedriver
 def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirms,item_deads,item_heals,population,sureRate):
     zh = re.compile(r'[\u4e00-\u9fa5]+')  # 查找中文
     num = re.compile(r'\d+')  # 查找数字
-    dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡","死亡率","人口数（万）","每10万人确诊"]
+    dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡","死亡率","人口数（万）","每10万人确诊","治愈死亡比"]
     nowTime = time.strftime("%Y_%m_%d_%H_%M", time.localtime()) ##%Y_%m_%d_%H_%M_%S
     with open("./CsvData/UC/"+nowTime+'_uc.csv', 'w', encoding='utf-8-sig', newline='') as csf:
         writer = csv.writer(csf)
@@ -43,8 +43,8 @@ def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirm
             deads =deads_num +"="+deads_rate
             populationcsv = re.findall("(>.*?<)", population[i].replace("><", ""))[0].replace(">", "").replace("<", "").replace("-","-1")
             sureRatecsv = re.findall("(>.*?<)", sureRate[i].replace("><", ""))[0].replace(">", "").replace("<", "").replace("-","-1")
-            data = [primary, now_con, confirm, new_confirm, heals, deads_num,deads_rate,populationcsv,sureRatecsv]
-            print(i,primary, now_con, confirm, new_confirm, heals,  deads_num,deads_rate,populationcsv,sureRatecsv)
+            data = [primary, now_con, confirm, new_confirm, heals, deads_num,deads_rate,populationcsv,sureRatecsv,abs(int(heals)/int(deads_num))]
+            print(i,primary, now_con, confirm, new_confirm, heals,  deads_num,deads_rate,populationcsv,sureRatecsv,abs(int(heals)/int(deads_num)))
             # dataList.append(data)
             writer.writerow(data)
 
