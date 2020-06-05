@@ -18,7 +18,7 @@ browser = webdriver.Chrome(executable_path=r'D:\Program Files (x86)\chromedriver
 def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirms,item_deads,item_heals,population,sureRate):
     zh = re.compile(r'[\u4e00-\u9fa5]+')  # 查找中文
     num = re.compile(r'\d+')  # 查找数字
-    dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡","死亡率","人口数（万）","每10万人确诊","治愈死亡比"]
+    dataList = ["地区","现存确诊","累计确诊","新增确诊","累计治愈","累计死亡","死亡率","人口数（万）","每10万人确诊","治愈死亡比","万人确诊治愈死亡比","万人确诊死亡治愈比"]
     nowTime = time.strftime("%Y_%m_%d_%H_%M", time.localtime()) ##%Y_%m_%d_%H_%M_%S
     with open("./CsvData/UC/"+nowTime+'_uc.csv', 'w', encoding='utf-8-sig', newline='') as csf:
         writer = csv.writer(csf)
@@ -30,27 +30,25 @@ def validateString_list(primary_cells,now_confirms,item_confirms,item_newconfirm
             primary = zh.findall(primary_cells[i].replace("<br>", ""))[0]
 
             ##现存确诊
-            now_con = num.findall(re.findall("(<span>.*?span)", now_confirms[i])[0])[0].replace("-","-1")
+            now_con = num.findall(re.findall("(<span>.*?span)", now_confirms[i])[0])[0].replace("-","0")
             ##累计确诊 'second-cell"><span data-v-189f4250="">1356</span></div'
-            confirm = num.findall(re.findall("(<span>.*?span)",item_confirms[i])[0])[0].replace("-","-1")
+            confirm = num.findall(re.findall("(<span>.*?span)",item_confirms[i])[0])[0].replace("-","0")
             ##新增确诊'cell-incr"><span data-v-eaacc57a="">4714</span>'
-            new_confirm = re.findall('(>.*?<)',item_newconfirms[i].replace("><",''))[0].replace('>',"").replace("<","").replace("-","-1")
+            new_confirm = re.findall('(>.*?<)',item_newconfirms[i].replace("><",''))[0].replace('>',"").replace("<","").replace("-","0")
             ##累计治愈'span-green">49130</span'  'span-green">-</span'
-            heals = re.findall("(>.*?<)", item_heals[i])[0].replace(">", "").replace("<", "").replace("-","-1")
+            heals = re.findall("(>.*?<)", item_heals[i])[0].replace(">", "").replace("<", "").replace("-","0")
             ##累计死亡'span-gray">3046</span' 'span-gray">-</span'
-            deads_num = re.findall("(>.*?<)", item_deads[2*i])[0].replace(">", "").replace("<", "").replace("-","-1")
-            deads_rate = re.findall("(>.*?<)", item_deads[2 * i+1])[0].replace(">", "").replace("<", "").replace("-", "-1")
-            deads =deads_num +"="+deads_rate
-            populationcsv = re.findall("(>.*?<)", population[i].replace("><", ""))[0].replace(">", "").replace("<", "").replace("-","-1")
-            sureRatecsv = re.findall("(>.*?<)", sureRate[i].replace("><", ""))[0].replace(">", "").replace("<", "").replace("-","-1")
-            data = [primary, now_con, confirm, new_confirm, heals, deads_num,deads_rate,populationcsv,sureRatecsv,abs(int(heals)/int(deads_num))]
-            print(i,primary, now_con, confirm, new_confirm, heals,  deads_num,deads_rate,populationcsv,sureRatecsv,abs(int(heals)/int(deads_num)))
+            deads_num = re.findall("(>.*?<)", item_deads[2*i])[0].replace(">", "").replace("<", "").replace("-","0")
+            deads_rate = re.findall("(>.*?<)", item_deads[2 * i+1])[0].replace(">", "").replace("<", "").replace("-", "0")
+            populationcsv = re.findall("(>.*?<)", population[i].replace("><", ""))[0].replace(">", "").replace("<", "").replace("-","0")
+            sureRatecsv = re.findall("(>.*?<)", sureRate[i].replace("><", ""))[0].replace(">", "").replace("<", "").replace("-","0")
+            if now_con == '0'  or now_con=='0' or  confirm=='0' or  new_confirm=='0' \
+                    or  heals=='0' or  deads_num=='0' or deads_rate=='0' \
+                    or populationcsv=='0' or sureRatecsv=='0': continue
+            data = [primary, now_con, confirm, new_confirm, heals, deads_num,deads_rate,populationcsv,sureRatecsv,abs(int(heals)/int(deads_num)),abs(int(heals)/int(deads_num)/int(now_con)*10000),abs(int(deads_num)/int(heals)/int(now_con)*10000)]
+            print(i,primary, now_con, confirm, new_confirm, heals,  deads_num,deads_rate,populationcsv,sureRatecsv,abs(int(heals)/int(deads_num)),abs(int(heals)/int(deads_num)/int(now_con)*10000),abs(int(deads_num)/int(heals)/int(now_con)*10000))
             # dataList.append(data)
             writer.writerow(data)
-
-
-
-
 
 def getInfo():
     mainUrl = "https://iflow.uc.cn/webview/article/newspecial.html?ab_tag_page_biz=,3055,3057,2970,2992,3023,2855,2662,2999,2655,3028,3026,2130,2890,2957,3031,3049,3047,3048,2154,2940,2885,3052,3029,3020,_,3055_B,3057_A,2970_B,2992_D,3023_A,2855_A,2662_C,2999_B,2655_C,3028_D,3026_B,2130_C,2890_E,2957_C,3031_B,3049_D,3047_C,3048_F,2154_C,2940_B,2885_B,3052_A,3029_D,3020_B,&uc_biz_str=S%3Acustom%7CC%3Atitlebar_hover_2&aid=3804775841868884355&cid=100&uc_param_str=lodndseiwifrvesvntgipf&sm_article_id=3804775841868884355&uc_h5_page_name=iflowspecial&feiyan=1&feiyan_jump=-3&external=1&app=uc-iflow&enterfrom=xxl-47haiwaicard&zzd_from=uc-iflow&dl_type=2&recoid=11431670214199215394&activity=1&activity2=1"

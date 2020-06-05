@@ -1,1 +1,1946 @@
-<html><head><script type="text/javascript">window.location.href='https://www.ds1024.xyz/movie.php?id=8009061827324331'</script></head></html>
+<!DOCTYPE html>
+
+<!-- saved from url=(0038)https://user.qzone.qq.com/1647567335/4 -->
+<html class="skin-light pg-profile" lang="zh-cn" style="margin-top: 0px;"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<noscript><meta content="0; url=//qzs.qq.com/qzone/v6/troubleshooter/noscript.html" http-equiv="refresh"/></noscript>
+<title>xixi的QQ空间 [http://1647567335.qzone.qq.com]</title>
+<meta content="QQ空间,黄钻,免费装扮,开心农场,QQ农场,QQ牧场" name="keywords"/>
+<meta content="" name="description"/>
+<link href="https://qzonestyle.gtimg.cn/qzone/v8/index/touch-icon-ipad-retina.png" rel="apple-touch-icon"/>
+<link href="https://qzonestyle.gtimg.cn/qzone/v8/index/touch-icon-ipad.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="https://qzonestyle.gtimg.cn/qzone/v8/index/touch-icon-iphone-retina.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="https://qzonestyle.gtimg.cn/qzone/v8/index/touch-icon-ipad-retina.png" rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://qzonestyle.gtimg.cn/qzone/v8/img/Qzone.svg" mask="" rel="icon" sizes="any"/>
+<meta content="#FFC028" name="theme-color"/>
+<script type="text/javascript">
+
+    (function() {
+        var whileList = {
+            'qzs.qq.com': 1,
+            'astro.fashion.qq.com': 1,
+            'gameapp.qq.com': 1,
+            'fn.qq.com': 1
+        };
+
+        function getHostname(href) {
+            var a = document.createElement('a');
+            a.href = href;
+
+            return a.hostname;
+        }
+
+        function deleteAllCookies() {
+            var cookies = document.cookie.split('; ');
+            for (var c = 0; c < cookies.length; c++) {
+                var d = window.location.hostname.split('.');
+                while (d.length > 0) {
+                    var cookieBase = encodeURIComponent(cookies[c].split(';')[0].split('=')[0]) + '=; expires=Thu, 01-Jan-1970 00:00:01 GMT; domain=' + d.join('.') + ' ;path=';
+                    var p = location.pathname.split('/');
+                    document.cookie = cookieBase + '/';
+                    while (p.length > 0) {
+                        document.cookie = cookieBase + p.join('/');
+                        p.pop();
+                    };
+                    d.shift();
+                }
+            }
+
+            window.g_qzonetoken = ''
+        }
+
+        if(window.opener && document.referrer) {
+            var refererName = getHostname(document.referrer);
+            var refererSplit = refererName.split('.');
+            var refererDomain2 = refererSplit.slice(-2).join('.');
+            var refererDomain3 = refererSplit.slice(-3).join('.');
+            var refererDomain4 = refererSplit.slice(-4).join('.');
+
+            var openerHost
+            var openerSplit
+            var openerDomain2
+            var openerDomain3
+            var openerDomain4
+
+            var domain = document.domain
+
+            document.domain = 'qq.com'
+
+            try {
+                openerHost = window.opener.location.host
+                openerSplit = openerHost.split('.');
+                openerDomain2 = openerSplit.slice(-2).join('.');
+                openerDomain3 = openerSplit.slice(-3).join('.');
+                openerDomain4 = openerSplit.slice(-3).join('.');
+            } catch (error) {
+                openerHost = ''
+            }
+
+            document.domain = domain
+
+            if(refererDomain2 === 'qq.com' && refererDomain3 !== 'qzone.qq.com') {
+                // referer
+                if((whileList[refererDomain3] === 1 || whileList[refererDomain4] === 1)) {
+                    console.log('whileList opener');
+                } else {
+                    deleteAllCookies();
+                }
+            } else if(openerHost) {
+                // opener
+                if(openerDomain2 === 'qq.com' && openerDomain3 !== 'qzone.qq.com') {
+                    if((whileList[openerDomain3] === 1 || whileList[openerDomain4] === 1)) {
+                        console.log('whileList opener');
+                    } else {
+                        deleteAllCookies();
+                    }
+                }
+            }
+        }
+    })()
+</script>
+<script type="text/javascript">
+	window.diyitems_1_url = ''
+
+		window.g_cdn_proto = 'https:'
+
+
+
+    	var g_domain = "qq.com";
+
+
+    //灰度降域(IE,FF,SAFARI从二级域名设到三级域名不报错，但是会无效)
+
+
+window.g_iframeUser = true
+
+    try {
+        document.domain = location.hostname;
+    } catch(e) {}
+
+    window.g_isFrameWorkTestEnv = "0";
+    window.g_point0=Date.now();
+    var _s_=new Date(),
+	g_T={},
+	siDomain="qzonestyle.gtimg.cn",
+	imgcacheDomain="qzs."+g_domain,
+
+	g_iUin=1647567335,
+	g_iLoginUin=383817842;
+
+
+
+g_T.fwp=[_s_];
+
+
+//引入配置文件
+
+window.g_dms = {
+            'u.qzone.qq.com' : 1,
+            'base.s2.qzone.qq.com' : 1,
+            'base.s8.qzone.qq.com' : 1,
+            'base.qzone.qq.com' : 1,
+            'r.qzone.qq.com' : 1,
+            'rsh.qzone.qq.com' : 1,
+            'ic2.cnc.qzone.qq.com' : 1,
+            'ic2.edu.qzone.qq.com':1,
+            'ic2.qzone.qq.com':1,
+            'ic2.s1.qzone.qq.com':1,
+            'ic2.s11.qzone.qq.com' : 1,
+            'ic2.s12.qzone.qq.com':1,
+            'ic2.s2.qzone.qq.com' : 1,
+            'ic2.s21.qzone.qq.com' : 1,
+            'ic2.s5.qzone.qq.com':1,
+            'ic2.s51.qzone.qq.com':1,
+            'ic2.s6.qzone.qq.com':1,
+            'ic2.s7.qzone.qq.com':1,
+            'ic2.s8.qzone.qq.com' : 1,
+            'ic2.qzone.qq.com' : 1,
+            'xalist.photo.qzone.qq.com' :1,
+            'hzalist.photo.qzone.qq.com' :1,
+            'alist.photo.qzone.qq.com' :1,
+            'shalist.photo.qzone.qq.com' :1,
+            'plist.photo.qzone.qq.com':1,
+            'xaplist.photo.qzone.qq.com':1,
+            'hzplist.photo.qzone.qq.com':1,
+            'gzplist.photo.qzone.qq.com':1,
+            'shplist.photo.qzone.qq.com':1,
+            'photo.qzone.qq.com':1,
+            'xa.photo.qzone.qq.com':1,
+            'hz.photo.qzone.qq.com':1,
+            'gz.photo.qzone.qq.com':1,
+            'shanghai.photo.qzone.qq.com':1,
+            'app.photo.qzone.qq.com':1,
+            'b.qzone.qq.com':1,
+            'b1.cnc.qzone.qq.com':1,
+            'b1.edu.qzone.qq.com':1,
+            'b1.qzone.qq.com':1,
+            'b11.cnc.qzone.qq.com':1,
+            'b11.edu.qzone.qq.com':1,
+            'b11.qzone.qq.com':1,
+            'b1.ctc.qzone.qq.com':1,
+            'b11.ctc.qzone.qq.com':1,
+            'b.ctc.qzone.qq.com':1,
+            'b.edu.qzone.qq.com':1,
+            'fav.qzone.qq.com' : 1,
+            'sns.qzone.qq.com' : 1,
+            'm.qzone.qq.com' : 1,
+            'snsapp.qzone.qq.com' : 1,
+            'taotao.qzone.qq.com' : 1,
+            'w.qzone.qq.com' : 1,
+            'g.qzone.qq.com' : 1
+        };
+
+
+window.g_sdms = {
+    'taotao.qq.com' : 1,
+    'taotao.qzone.qq.com' : 1,
+    'b.qzone.qq.com' : 1,
+    'pageapp.qzone.qq.com' : 1,
+    'b11.qzone.qq.com' : 1,
+    'b1.qzone.qq.com' : 1,
+    'br.qzone.qq.com' : 1,
+    'm.qzone.qq.com' : 1,
+    'base.qzone.qq.com' : 1,
+    'w.qzone.qq.com' : 1,
+    'g.qzone.qq.com' : 1,
+    'r.qzone.qq.com' : 1,
+    'ic2.qzone.qq.com' : 1,
+    'boss.qzone.qq.com' : 1,
+    'mall.qzone.qq.com' : 1,
+    'statistic.qzone.qq.com' : 1,
+    'fav.qzone.qq.com' : 1,
+    'snsapp.qzone.qq.com' : 1,
+    'vip.qzone.qq.com' : 1,
+    'route.store.qq.com' : 1,
+            'drift.qzone.qq.com' : 1,
+            'p1.qzone.qq.com' : 1,
+            'p2.qzone.qq.com' : 1,
+            'xalist.photo.qzone.qq.com' :1,
+            'hzalist.photo.qzone.qq.com' :1,
+            'alist.photo.qzone.qq.com' :1,
+            'shalist.photo.qzone.qq.com' :1,
+            'plist.photo.qzone.qq.com':1,
+            'xaplist.photo.qzone.qq.com':1,
+            'hzplist.photo.qzone.qq.com':1,
+            'gzplist.photo.qzone.qq.com':1,
+            'shplist.photo.qzone.qq.com':1,
+            'photo.qzone.qq.com':1,
+            'xa.photo.qzone.qq.com':1,
+            'hz.photo.qzone.qq.com':1,
+            'gz.photo.qzone.qq.com':1,
+            'shanghai.photo.qzone.qq.com':1,
+            'tj.photo.qzone.qq.com':1,
+            'app.photo.qzone.qq.com':1,
+            'memo.qq.com' : 1,
+            'analy.qq.com' : 1,
+            'analy.qzone.qq.com' : 1,
+            'page.qq.com' : 1,
+            'rsh.qzone.qq.com' : 1,
+            'search.qzone.qq.com' : 1,
+            'flower.qzone.qq.com' : 1,
+            'sz.ic2.qzone.qq.com' : 1,//通过qqtips到PC空间时，ic2域名统一走深圳
+            'up.photo.qq.com' : 1
+};
+
+window.g_cgidomain = location.host.replace('.qzone.qq.com','') || 'h5';
+
+
+
+    window.g_proto = 'https:';
+
+
+
+
+
+document.namespaces&&document.namespaces.add&&(document.namespaces.add('qz', location.protocol + '//qzone.qq.com/'),document.namespaces.add('x', location.protocol+'//qzone.qq.com/'));
+
+
+
+
+
+
+
+window.g_isGrayRelease = true;
+
+
+
+window.g_isGrayFlashNavi = true
+
+
+
+
+
+
+    window.g_iframeDescend = true
+
+
+
+
+
+
+window.g_isgraynamecard = true
+
+
+
+
+
+</script>
+<link href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/old-qz_qzone_lv.css" rel="stylesheet"/>
+<link href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/1.css" rel="stylesheet"/>
+<link href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/profile-v9.css" rel="stylesheet"/>
+<link href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/dress-expired-tips.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+</style>
+<style id="dynamicStyle" type="text/css">
+.ownermode{display:none;}
+.clientmode{display:;}
+.editmode{display:none;}
+.customoff{display:;}
+.alphamode{display:none;}
+</style>
+<link href="http://feeds.qzone.qq.com/cgi-bin/cgi_rss_out?uin=1647567335" rel="alternate" title="RSS news feed" type="application/rss+xml"/>
+<link href="https://qzonestyle.gtimg.cn/aoi/img/logo/favicon.ico?max_age=31536000" rel="Shortcut Icon" type="image/x-icon"/>
+<!--[if IE]><base href="//qzs.qq.com/"></base><![endif]-->
+<!--[if !(IE)]><!--><link charset="utf-8" href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/c_vip_hintbar_v2.css" rel="stylesheet"/><link charset="utf-8" href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/qz_vip_tip_v2.css" rel="stylesheet"/><link charset="utf-8" href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/dialog-vip-tip.css" rel="stylesheet"/><link charset="utf-8" href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/photo-scan-layer.css" rel="stylesheet"/><!--<base href="//qzs.qq.com/">--><base href="."/><!--<![endif]-->
+<!--[if IE]>
+<script type="text/javascript">
+    function toAbsURL(s) {
+     var l = location, h, p, f, i;
+     if (/^\w+:/.test(s)) {
+       return s;
+     }
+     h = l.protocol + '//' + l.host + (l.port!=''?(':' + l.port):'');
+     if (s.indexOf('/') == 0) {
+       return h + s;
+     }
+     p = l.pathname.replace(/\/[^\/]*$/, '');
+     f = s.match(/\.\.\//g);
+     if (f) {
+       s = s.substring(f.length * 3);
+       for (i = f.length; i--;) {
+         p = p.substring(0, p.lastIndexOf('/'));
+       }
+     }
+     return h + p + '/' + s;
+   }
+
+
+    var base = document.getElementsByTagName('base')[0];
+    base.href = toAbsURL(base.href);
+</script>
+<![endif]-->
+<script type="text/javascript">
+    // jserror上报
+    var uinArray = /uin=o0*(\S+);/.exec(document.cookie || '');
+    var pathArray = /^\/[^\/]+?\/[^\/]+/.exec(location.pathname || '');
+
+    var qua = '',
+        apn = 'WIFI',
+        uin = uinArray && uinArray[1];;
+
+    var collector = [],
+        collectorTime = 2000,//2000ms时间间隔内的请求合并上报
+        collectorTimer;
+    window.reportHaboGlobal = function(code, appid, command) {
+        // 兼容hybrid需要自动补前缀的老逻辑
+        command = command || '';
+        if (command[0] === '/') {
+            command = 'hybrid' + command + (pathArray && pathArray[0]);;
+        }
+
+        var data = {
+            releaseversion: qua,
+            apn: apn,
+            touin: uin,
+            key: 'appid,commandid,resultcode' //标记分组上报的key顺序
+        };
+        collector.push([appid || '1000361', command, code]);
+        var url = location.protocol === 'https:' ? 'https://h5.qzone.qq.com/wspeed.qq.com/w.cgi' : 'http://wspeed.qq.com/w.cgi';
+
+        collectorTimer && clearTimeout(collectorTimer);
+        collectorTimer = setTimeout(report, collectorTime);
+        function report() {
+            var params = [];
+            for (var key in data) {
+                if (data.hasOwnProperty(key)) {
+                    params.push(key + '=' + encodeURIComponent(data[key]));
+                }
+            }
+            //遍历合并上报的数组
+            if (collector && collector.length) {
+                var i = 0;
+                while (collector.length) {
+                    //太长就下次上报
+                    if (params.join('&').length > 1000) {
+                        break;
+                    }
+                    var c = collector.shift();
+                    //appid,commandid,resultcode
+                    params.push([i + 1, 1].join('_') + '=' + c[0]);
+                    params.push([i + 1, 2].join('_') + '=' + c[1]);
+                    params.push([i + 1, 3].join('_') + '=' + c[2]);
+                    i++;
+                }
+            }
+            params.push('rv=' + Math.random());
+            new Image().src = url + '?' + params.join('&');
+
+            //队列太长未上报完的1秒后再上报
+            i > 0 && collector.length && setTimeout(report, 1000);
+        }
+    };
+    var toUrlParam = function(data) {
+        var arr = [];
+        for (var key in data) {
+            if (data.hasOwnProperty(key)) {
+                if(data[key] !== '' && data[key] !== undefined) {
+                    arr.push(encodeURIComponent(key) + '=' + encodeURIComponent(data[key]));
+                }
+            }
+        }
+        return arr.join('&');
+    };
+    var send = function(data, callback, onTimeout) {
+        try {
+            // 设置超时
+            onTimeout && setTimeout(function() {
+                callback = null;
+                onTimeout && onTimeout();
+            }, 3000);
+            data = toUrlParam(data);
+            var url = '//h5.qzone.qq.com/log/post/script/error/' + command;
+            var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : {};
+            if ('withCredentials' in xhr) {
+                xhr.open('post', url, true);
+                xhr.withCredentials = true;
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.onreadystatechange = function(){
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        var o = JSON.parse(xhr.responseText);
+                        onTimeout = null;
+                        callback && callback(o);
+                    }
+                };
+                try{xhr.send(data);}catch(e){};
+            } else if ('XDomainRequest' in window) {
+                var xdr = new XDomainRequest();
+                xdr.open('post', url);
+                xdr.onload = function() {
+                    var o;
+                    window.JSON ? (o = JSON.parse(xdr.responseText)) : eval('o = ' + xdr.responseText);
+                    onTimeout = null;
+                    callback && callback(o);
+                };
+                setTimeout(function() {
+                    try{xdr.send(data);}catch(e){};
+                }, 0);
+            }
+        } catch(e) {}
+    };
+
+    var appid = '1000416',
+        maxJsErrorCount = parseInt(''),
+        maxJsErrorCount = isNaN(maxJsErrorCount) ? 5 : maxJsErrorCount,
+        jsErrorCount = 0,
+        command = 'hybrid/pcweb',
+        reportHabo = 1,
+        queue = [],
+        isReporting = false,
+        hasReportPv = false;
+    var report = function() {
+        var data = queue.shift();
+        if (!data) {
+            isReporting = false;
+            return;
+        }
+        isReporting = true;
+        data.reportHabo = reportHabo;
+        reportHabo = 0;
+        send(data, function(o) {
+            if (o && o.code == 0 && o.data && o.data.result != 1) {
+                // 错误被忽略，还原上报habo标记
+                reportHabo = data.reportHabo;
+            }
+            // 延时1s上报下一个错误
+            setTimeout(report, 1000);
+        }, function() {
+            // 请求超时了，继续上报下一个到罗盘，habo就当报过了
+            report();
+        });
+    };
+    window.reportJsError = function(data) {
+        reportPv();
+        if (jsErrorCount++ >= maxJsErrorCount) {return;}
+        queue.push(data);
+        !isReporting && report();
+    };
+    var filterError = function(data) {
+        if(data.stack.indexOf('SyntaxError: Unexpected token') > -1) {
+            return true;
+        }
+        if(data.scriptUrl.indexOf('videoPlayer') > -1) {
+            return true;
+        }
+        if(data.scriptUrl.indexOf('app_engine') > -1) {
+            return true;
+        }
+        if(data.scriptUrl.indexOf('namecardv2') > -1) {
+            return true;
+        }
+        if(data.scriptUrl.indexOf('toolbar/core.js') > -1) {
+            return true;
+        }
+        if(data.scriptUrl.indexOf('/gdt/') > -1) {
+            return true;
+        }
+        if(data.lineNumber == 0) {
+            return true;
+        }
+
+        return false;
+    };
+    var onError = function(event) {
+        var data = {
+            appid: appid,
+            error: event.message,
+            stack: event.error && event.error.stack || '',
+            url: location.href,
+            scriptUrl: event.filename,
+            lineNumber: event.lineno,
+            columnNumber: event.colno
+        };
+        var fn = window.beforeJsErrorReport;
+        if (typeof fn === 'function' && false === fn(data)) {
+            return;
+        }
+        if(filterError(data)) {
+            return;
+        }
+        window.reportJsError(data);
+    };
+    var reportPv = function() {
+        if (hasReportPv) {return;}
+        // 上报PV为哈勃成功
+        window.reportHaboGlobal && reportHaboGlobal(0, appid, command);
+        hasReportPv = true;
+    };
+    if (window.addEventListener) {
+        window.addEventListener('error', onError);
+        window.addEventListener('load', reportPv);
+        window.iframeOnLoad = function() {
+            var appCanvasFrame = document.getElementsByClassName('app_canvas_frame');
+            if(appCanvasFrame.length > 0) {
+                appCanvasFrame[0].contentWindow.onerror = onError;
+            }
+        }
+    } else if (window.attachEvent) {
+        window.attachEvent('onerror', onError);
+        window.attachEvent('onload', reportPv);
+    } else {
+        window.onerror = onError;
+        setTimeout(reportPv, 3000);
+    }
+    window.listenError = true;
+</script><link href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/qz-tips-box.css" media="screen" rel="stylesheet" rev="stylesheet" type="text/css"/><link href="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/qz_smart_search.css" media="screen" rel="stylesheet" rev="stylesheet" type="text/css"/><style id="viewerStyle">
+.js_fade_like{
+	line-height:0px;
+	display:none;
+}
+
+.figure-comment{
+	display : none;
+}
+.figure-comment.js-can-comment{
+	display : block;
+}
+
+.js_show_comment #mod_comment_module{}
+.js_show_comment #mod_retweet{
+	display : none;
+}
+.js_show_comment #mod_retweet .textinput{
+	visibility:hidden;
+}
+
+.js_show_retweet #mod_comment_module{
+	display : none;
+}
+.js_show_retweet #mod_retweet{}
+.mod_comment_report{
+	visibility:hidden;
+}
+
+.js_standalone_mode .photo_layer_close{
+	visibility:hidden;
+}
+.js_standalone_mode .photo_layer {
+	padding : 0;
+}
+.js_standalone_mode .js_reproduced{
+	visibility :hidden;
+}
+.js-scrolling-inner{
+	background-color:#c9c9c9;
+}
+
+.js-scrollbox{
+	overflow:hidden;
+	height:100%;
+	position:relative;
+}
+.js-scrollcont{
+	height:100%;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	padding-right:60px;
+	position:relative;
+	width:100%;
+}
+.js-scrollbar{
+	height:100%;
+	position:absolute;
+	right:0;
+	top:0;
+	width:15px;
+	z-index:9;
+}
+.js-scrolling-inner{
+	border-radius:4px 4px 4px 4px;
+	display:block;
+	height:100%;
+	width:6px;
+	float:right;
+}
+.js-scrolling-inner-hover{
+	width:10px;
+	border-radius:6px 6px 6px 6px;
+}
+.js-scrollbar-hover{
+	width:15px;
+}
+
+a:hover .js-scrolling-inner,a:active .js-scrolling-inner{
+	background-color:#a8a8a8;
+}
+
+.rotate{
+	transition:transform 0.2s linear;
+	-webkit-transition:-webkit-transform 0.2s linear;
+	-moz-transition:-moz-transform 0.2s linear;
+	-o-transition:-o-transform 0.2s linear;
+	-ms-transition:-ms-transform 0.2s linear;
+}
+
+.js-fullscreen-wrapper{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:9999;
+	background-color:#000;
+	-webkit-backface-visibility:hidden;
+}
+
+.js-fullscreen-layer-transition{
+	transition:opacity 1.2s ease-out;
+	-webkit-transition:opacity 1.2s ease-out;
+	-moz-transition:opacity 1.2s ease-out;
+	-o-transition:opacity 1.2s ease-out;
+	-ms-transition:opacity 1.2s ease-out;
+	opacity: 1;
+}
+.js-fullscreen-layer-transition-none{
+	transition:none;
+	-webkit-transition:none;
+	-moz-transition:none;
+	-o-transition:none;
+	-ms-transition:none;
+	opacity: 0;
+}
+
+.js-fullscreen-cont{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+.js-fullscreen-cont-transition{
+	transition:1.2s ease-out;
+	-webkit-transition:1.2s ease-out;
+	-moz-transition:1.2s ease-out;
+	-o-transition:1.2s ease-out;
+	-ms-transition:1.2s ease-out;
+}
+
+.js-fullscreen-img{
+	position:absolute;
+	display:none;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top left;
+	-webkit-transform-origin:0px 0px;
+}
+
+.js-rightmenu-box{
+	width:110px;
+	position:absolute;
+	z-index:9999;
+}
+.js-rightmenu-box ul{
+	background-color:#FFF
+}
+.js-rightmenu-box ul li{
+	margin:0;
+	height:auto;
+	line-height:normal;
+}
+.js-rightmenu-box ul li a{
+	display:block;
+	width:100%;
+	padding:8px 0;
+	text-align:center;
+	color:#333;
+}
+.js-rightmenu-box ul li a:hover{
+	background-color:#5CAAE6;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.js-hidden {
+    visibility:hidden
+}
+
+.handle-tab .btn-txt{
+	display:none;
+}
+.handle-tab .btn-txt-num{
+	display:none;
+}
+.handle-tab.j-show-txt .btn-txt{
+	display:inline-block;
+}
+.handle-tab.j-show-txt-num .btn-txt-num{
+	display:inline-block;
+}
+
+.js-thumb-item {
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+</style><style id="vpjs-player-style" type="text/css">
+        .vpjs-fullscreen {
+            width: 100% !important;
+            height: 100% !important;
+            padding-top: 0 !important;
+        }
+
+        .vpjs-fullscreen .vpjs-videoControlBar {
+            z-index: 2147483647
+        }
+
+        .vpjs-playerContainer video::-webkit-media-controls-enclosure {
+            display:none !important;
+        }
+
+        .vpjs-playerContainer video::-webkit-media-controls-start-playback-button {
+            display:none !important;
+        }
+
+        .vpjs-playerContainer:-moz-full-screen {
+            position: asbolute;
+        }
+
+        .vpjs-playerContainer .vpjs-fade {
+            -webkit-transition: opacity 0.3s ease-in, visibility 0.2s ease-in;
+            -moz-transition: opacity 0.3s ease-in, visibility 0.2s ease-in;
+            -o-transition: opacity 0.3s ease-in, visibility 0.2s ease-in;
+            transition: opacity 0.3s ease-in, visibility 0.2s ease-in;
+        }
+
+        .vpjs-playerContainer .vpjs-fadein {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .vpjs-playerContainer .vpjs-fadeout {
+            visibility: hidden;
+            opacity: 0;
+        }
+
+    </style><style id="_videoPlayer_UIControls_style" type="text/css">
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAACWCAYAAAAfduJyAAAANUlEQVR42mNgIAowMoFIVIJYMWwSZKpjJNlQRvJkqaiNWDdTWweZJjNSEAaMpAQOxW4hgwUA1XsBVs9mpkIAAAAASUVORK5CYII=);
+            height: 42px;
+            background-repeat: repeat-x;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-left,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-right {
+            position: relative;
+            height: 100%;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-left {
+            float: left;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-right {
+            float: right;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-left .vpjs-controls-btn {
+            margin-left: 4px;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-right .vpjs-controls-btn {
+            margin-right: 4px;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-btn {
+            position: relative;
+            text-align: center;
+            -webkit-flex: none;
+            -ms-flex: none;
+            flex: none;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-time {
+            color: #999;
+            vertical-align: middle
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-time > b {
+            color: #fff
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-icon-pause,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-icon-play,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-icon-silence,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-icon-shrink,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-icon-pointer-hover,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-btn[data-status=muted] .vpjs-icon-voice,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-btn[data-status=fullscreen] .vpjs-icon-fullscreen {
+            display: none;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar[data-status=pause] .vpjs-icon-play,
+        .vpjs-playerContainer .vpjs-videoControlBar[data-status=play] .vpjs-icon-pause,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-btn[data-status=muted] .vpjs-icon-silence,
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-btn[data-status=fullscreen] .vpjs-icon-shrink {
+            display: block;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-voice-icon-pointer {
+            cursor: pointer;
+            position: absolute;
+            left: -9.5px;
+            top: -10.83px;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-progress-icon-pointer {
+            cursor: pointer;
+            position: absolute;
+            right: -13px;
+            top: -12px;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-voice-progress-container {
+            cursor: pointer;
+            position: absolute;
+            width: 28px;
+            height: 76px;
+            bottom: 25px;
+            padding: 14px 0;
+            z-index: 2;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-voice-progress {
+            position: absolute;
+            background-color: rgba(0, 0, 0, .4);
+            left: 6px;
+            width: 14px;
+            height: 76px;
+            border-radius: 7px;
+            z-index: 2;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-voice-progress:before {
+            content: "";
+            height: 60px;
+            width: 2px;
+            background-color: #777;
+            position: absolute;
+            left: 6px;
+            top: 8px;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-voice-progress-bar {
+            background-color: #fff;
+            position: absolute;
+            left: 6px;
+            width: 2px;
+            bottom: 8px;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-progress-pane {
+            cursor: pointer;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -20px;
+            margin: 0 10px;
+            height: 20px;
+            z-index: 1;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-controls-progress {
+            height: 2px;
+            border-radius: 1px;
+            background-color: rgba(255,255,255,.3);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-buffer-bar {
+            background-color: rgba(255,255,255,.5);
+            height: 2px;
+            border-radius: 1px;
+            position: absolute;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-progress-bar {
+            background-color: #fff;
+            height: 2px;
+            border-radius: 1px;
+            position: relative;
+        }
+
+        .vpjs-playerContainer .vpjs-videoControlBar .vpjs-ui-icon {
+            cursor: pointer;
+            display: block;
+            margin: auto;
+            fill: #fff;
+        }
+
+
+            .vpjs-playerContainer .vpjs-videoControlBar .vpjs-ui-icon:hover {
+                fill: #ffc028;
+            }
+
+            .vpjs-playerContainer .vpjs-videoControlBar .vpjs-progress-icon-pointer:hover .vpjs-icon-pointer-hover,
+            .vpjs-playerContainer .vpjs-videoControlBar .vpjs-voice-icon-pointer:hover .vpjs-icon-pointer-hover {
+                display: block;
+            }
+
+
+    </style><script charset="utf-8" data-name="1648225091" id="_gdt_loader_0.4073014914900457" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/qbscomm.20150907.js" type="text/javascript"></script><script charset="utf-8" data-name="1001645319" id="_gdt_loader_0.20829257685194924" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/gdtlib.20181219.js" type="text/javascript"></script><script charset="utf-8" data-name="1513054522" id="_gdt_loader_0.7197230929335479" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/ver.20170622.js" type="text/javascript"></script><style id="gdt-corner-css" type="text/css">*{margin:0;padding:0}.j-corner{display:inline-block;width:44px;overflow:hidden;transition:all 0.8s;cursor:pointer;position:absolute;right:0;bottom:0;z-index:3;}.j-corner:hover{width:92px;}.j-corner .tr{width:100%;height:18px;display:inline-block;background-image:url(//qzonestyle.gtimg.cn/gdt_ui_proj/dist/adpoly/logo-adsign/images/logo-bg-defalt.png);transform-origin:0 18px;transition:all 0.6s ease;position:absolute;top:0;left:0;}.j-corner:hover .tr{width:92px;height:18px;display:inline-block;background-image:url(//qzonestyle.gtimg.cn/gdt_ui_proj/dist/adpoly/logo-adsign/images/logo-bg-open.png);}.j-corner .info{position:relative;z-index:2;font-size:12px;height:18px;padding-left:7px;line-height:18px;white-space:nowrap;color:#fff;}.j-corner .text1, .text2{display:inline-block;position:absolute;top:0;left:7px;height:18px;transition:all 0.6s ease;}.j-corner .text1{width:44px;background:url(//qzonestyle.gtimg.cn/gdt_ui_proj/dist/adpoly/logo-adsign/images/logo-defalt.png) no-repeat 0 center;opacity:1;filter:alpha(opacity=100);}.j-corner:hover .text1{opacity:0;filter:alpha(opacity=0);}.j-corner .text2{width:92px;background:url(//qzonestyle.gtimg.cn/gdt_ui_proj/dist/adpoly/logo-adsign/images/logo-open.png) no-repeat 0 center;opacity:0;filter:alpha(opacity=0);}.j-corner:hover .text2{opacity:1;filter:alpha(opacity=100);}</style><script charset="UTF-8" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/stat_ff8856c.js" type="text/javascript"></script><script charset="UTF-8" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/asynload_a051ecb.js" type="text/javascript"></script><style type="text/css">.mod_commnets_poster .qzappwrap{display:none}.mod_retweet .qzappwrap{display:none}</style></head><style id="1759969262864" type="text/css"></style>
+<body class="os-winxp bg-body mode-page-app-widescreen" style="">
+<div class="top-fix-bar">
+<div class="top-fix-inner">
+<div class="top-fix-container" id="QZ_Toolbar_Container" style="display: block;">
+<div class="top-fix-wrap">
+<a class="logo" href="https://user.qzone.qq.com/383817842/" title="QQ空间">QQ空间</a>
+<ul class="top-nav">
+<li class="nav-list" id="tb_index_li">
+<div class="nav-list-inner">
+<a class="homepage-link a-link" href="https://user.qzone.qq.com/1647567335/main"><i class="ui-icon icon-homepage"></i><span>她的主页</span><i class="drop-down-arrow"></i></a>
+</div>
+<div class="nav-drop-down" id="tb_menu_panel" style="display: none;">
+<div class="side-area">
+<div class="homepage-link">
+<a class="link-icon" href="https://user.qzone.qq.com/1647567335/main"><i class="icon-homepage"></i></a>
+<a class="link-text" href="https://user.qzone.qq.com/1647567335/main">主页</a>
+</div>
+</div>
+<div class="main-area">
+<div class="main-application">
+<ul class="main-application-list clearfix" id="tb_menu_list">
+<li class="menu_item_2">
+<a href="javascript:;"><i class="icon-blog"></i></a>
+<a class="app-name">日志</a>
+</li>
+<li class="menu_item_4">
+<a href="javascript:;"><i class="icon-album"></i></a>
+<a class="app-name">相册</a>
+</li>
+<li class="menu_item_311">
+<a href="javascript:;"><i class="icon-say"></i></a>
+<a class="app-name">说说</a>
+</li>
+<li class="menu_item_202">
+<a href="javascript:;"><i class="icon-share"></i></a>
+<a class="app-name">分享</a>
+</li>
+<li class="menu_item_847">
+<a href="javascript:;"><i class="icon-video"></i></a>
+<a class="app-name">视频</a>
+</li>
+<li class="menu_item_305">
+<a href="javascript:;"><i class="icon-music"></i></a>
+<a class="app-name">音乐</a>
+</li>
+<li class="menu_item_334">
+<a href="javascript:;"><i class="icon-message-book"></i></a>
+<a class="app-name">留言板</a>
+</li>
+<li class="menu_item_1">
+<a href="javascript:;"><i class="icon-personal"></i></a>
+<a class="app-name">个人档</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-list" id="tb_index_ownerfeeds">
+<div class="nav-list-inner">
+<a href="javascript:;" id="aOwnerFeeds"><i class="ui-icon icon-feeds"></i><span>她的动态</span></a>
+</div>
+</li>
+<li class="nav-list" id="tb_index_friendship">
+<div class="nav-list-inner">
+<a href="javascript:;" id="aFriendship"><i class="ui-icon icon-friendship"></i><span>亲密度</span></a>
+</div>
+</li>
+</ul>
+<div class="user-info">
+<a class="user-home" href="https://user.qzone.qq.com/383817842/main">
+<img alt="您的头像" class="user-avatar" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/30"/>
+<span class="user-name textoverflow">许氏友</span>
+</a>
+<a class="logout" href="javascript:;" id="tb_logout">[退出]</a>
+<div class="user-setting" id="tb_setting_li">
+<i class="drop-down-arrow" id="tb_setting_i"></i>
+<div class="user-drop-down" id="tb_setting_panel" style="display:none;">
+<b class="white-line"></b>
+<div class="drop-down-setting">
+<a href="javascript:;" type="info">修改资料</a>
+<a href="javascript:;" type="dress">主页排版</a>
+<a href="javascript:;" type="set">空间设置</a>
+<a href="javascript:;" type="auth">权限设置</a>
+</div>
+<a class="online-service" href="http://service.qq.com/special_auto/qzone.html" id="aHelpCenter" target="_blank">帮助中心</a>
+</div>
+</div>
+<a class="vip-setting" href="http://pay.qq.com/ipay/index.shtml?ch=self&amp;aid=zone.tbarshuang&amp;c=xxjzgw,xxjzghh" id="tb_vip_li" target="_blank"><i class="ui-icon icon-vip"></i></a>
+</div>
+<b class="divide-line"></b>
+<a class="back-to-icenter" href="https://user.qzone.qq.com/383817842/infocenter">返回个人中心</a>
+<b class="divide-line"></b>
+<!-- 顶部搜索框 默认放出 2014-04-22 markqin -->
+<div class="top-search">
+<div class="search-box">
+<input class="search-input" placeholder="用户/应用/动态" type="text"/><!--搜索框默认态-->
+<a class="search-button" href="javascript:;"><i class="ui-icon icon-search"></i></a>
+</div>
+<div class="search-drop-down" id="search_smart_panel_navigation_bar" style="display:none">
+<div class="waiting-box" id="search_smart_search_loading" style="display:none">
+<img alt="等待图标" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/loading2.gif"/>
+</div>
+<div id="search_smart_search_list">
+<div class="result-box r-modle j-default-result-list" style="display:none">
+<a class="result-list" href="https://user.qzone.qq.com/383817842/infocenter?qz_referrer=special&amp;clickReport=searchSpecial">
+<div class="avatar"><i class="ui-icon icon-ts-special"></i></div>
+<div class="result-details">
+<p class="info">特别关心</p>
+</div>
+</a>
+<a class="result-list" href="https://user.qzone.qq.com/383817842/myhome/friends/ofpmd?clickReport=searchMaybeKnow">
+<div class="avatar"><i class="ui-icon icon-ts-qq"></i></div>
+<div class="result-details">
+<p class="info">可能认识的人</p>
+</div>
+</a>
+<a class="result-list" href="https://user.qzone.qq.com/383817842/myhome/217?clickReport=searchAuthenQzone" style="display:none;">
+<div class="avatar"><i class="ui-icon icon-ts-approve"></i></div>
+<div class="result-details">
+<p class="info">认证空间</p>
+</div>
+</a>
+<a class="result-list" href="https://rc.qzone.qq.com/appstore?via=qzonesearchbar&amp;clickReport=searchApp">
+<div class="avatar"><i class="ui-icon icon-ts-app"></i></div>
+<div class="result-details">
+<p class="info">应用</p>
+</div>
+</a>
+</div>
+<div class="smart-result-list" style="display:none"></div>
+</div>
+<a class="search-for-friends" href="javascript:;" id="search_smart_search_more" style="display:none">
+<span>查看更多</span><i class="more-icon"></i>
+</a>
+</div>
+</div>
+<div class="music-container" id="tb_music_li">
+<div class="music-panel">
+<a class="music-play" href="javascript:;"><i class="ui-icon ico-music-stop"></i></a>
+<b class="music-dynamic"><i class="ui-icon ico-music-dynamic"></i></b>
+</div>
+<div class="music-drop-down" id="tb_music_panel" style="display:none;">
+<div class="drop-down-container">
+<div class="background-music">
+<i class="icon-qq-music"></i>
+<b>我的背景音乐</b>
+<div class="setting-box">
+<a class="music-setting" href="javascript:;">设置</a>
+</div>
+</div>
+<div class="music-list">
+<div class="music-scroll-container">
+<div class="music-choose" style="top:0">
+</div>
+</div>
+<b class="scroll-bar-container">
+<b class="scroll-bar" style="top:0"></b>
+</b>
+</div>
+</div>
+</div>
+</div>
+<div class="vip-drop-down" id="tb_vip_panel" style="display: none;"><b class="white-line" data-type="normal"></b><div class="drop-down-setting"><a href="http://pay.qq.com/ipay/index.shtml?c=xxjzgw,xxjzghh&amp;ch=self&amp;aid=zone.tbarshuang" id="aPayBySelf" target="_blank">开通黄钻</a><a href="http://pay.qq.com/ipay/index.shtml?c=xxjzgw,xxjzghh&amp;ch=self&amp;aid=zone.tbarshuangnf&amp;paytime=year" id="aPayByYear" target="_blank">开年费黄钻</a><a href="javascript:;" id="aPayByFriend">向好友索取</a><a href="http://pay.qq.com/ipay/index.shtml?c=xxjzgw,xxjzghh&amp;ch=send&amp;aid=zone.tbar.send&amp;ADTAG=pay.service.qzone.send&amp;u=0" id="aPayToFriend" target="_blank">赠送给好友</a><a href="http://vip.qzone.com/?login=qq" id="aVipHome" target="_blank">黄钻官网</a></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="background-container" id="layBackground">
+<div class="layout-content">
+<div class="layout-head">
+<div class="layout-head-inner" id="headContainer" style="background: no-repeat; height: 250px; display: block;">
+<div class="head-info">
+<h1 class="head-title" id="top_head_title"><span class="title-text">xixi的QQ空间</span>
+</h1>
+<div class="head-description">
+<span class="description-text" id="QZ_Space_Desc"></span>
+</div>
+</div>
+<div class="head-detail">
+<div class="head-detail-name">
+<span class="user-name textoverflow">xixi</span>
+</div>
+</div>
+<!--挂件-->
+<div class="layout-shop-item" id="QZ_Shop_Items_Container" style="z-index: 101;">
+<div class="shop-item cs" id="menuContainer" reged="1" style="height: 32px; left: 150px; top: 252px; display: block;"><div class="head-nav"><ul class="head-nav-menu"><li class="menu_item_N1"><span class="arr"></span><a accesskey="z" href="javascript:;" tabindex="1" title="主页">主页</a></li><li class="menu_item_2"><span class="arr"></span><a accesskey="r" href="javascript:;" tabindex="1" title="日志">日志</a></li><li class="menu_item_4 cur"><span class="arr"></span><a accesskey="4" href="javascript:;" tabindex="1" title="相册">相册</a></li><li class="menu_item_334"><span class="arr"></span><a href="javascript:;" tabindex="1" title="留言板">留言板</a></li><li class="menu_item_311"><span class="arr"></span><a accesskey="6" href="javascript:;" tabindex="1" title="说说">说说</a></li><li class="menu_item_1"><span class="arr"></span><a accesskey="1" href="javascript:;" tabindex="1" title="个人档">个人档</a></li><li class="menu_item_305"><span class="arr"></span><a href="javascript:;" tabindex="1" title="音乐">音乐</a></li><li class="menu_item_more"><span class="arr"></span><a href="javascript:;" tabindex="1" title="更多">更多</a></li></ul></div></div>
+</div>
+<div class="layout-shop-item" id="flowerContainerDiv"></div></div>
+</div>
+<div class="layout-nav">
+<div class="layout-nav-inner">
+<div class="head-avatar">
+<a href="javascript:;" id="QM_OwnerInfo_ModifyIcon" style="cursor:default" title=""><img class="user-avatar" id="QM_OwnerInfo_Icon" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/100"/></a>
+</div>
+</div>
+</div>
+<div class="layout-background">
+<div class="layout-body">
+<div class="qz-grid none" id="pageContent">
+</div>
+<div class="layout-app mod_wrap" id="pageApp">
+<div class="mod_wrap_inner">
+<div class="mod_wrap_bd">
+<div class="mod_wrap_iframe" id="app_container" style="min-height:435px;"><iframe allowfullscreen="" allowtransparency="yes" class="app_canvas_frame" frameborder="no" height="1202" id="tphoto" name="app_canvas_frame" onload="iframeOnLoad()" scrolling="no" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/photocanvas.html" width="100%"></iframe></div>
+</div>
+</div>
+</div>
+<div class="layout-app none" id="page3rdApp" style="min-height:750px;"></div>
+</div>
+<div class="layout-copyright">
+<p><a href="http://z.qzone.com/" onclick="TCISD &amp;&amp; TCISD.hotClick('bottomqzoneapp', 'user.qzone.com')" target="_blank">空间手机版</a> | <a href="http://vip.qzone.com/" onclick="TCISD &amp;&amp; TCISD.hotClick('threefromendofpage', 'guangxi.vip.qzone.com', 'main')" target="_blank">黄钻贵族</a> | <a href="http://user.qzone.qq.com/20050606" target="_blank">官方Qzone</a> | <a href="http://connect.qq.com/" target="_blank">QQ互联</a> | <a href="https://ke.qq.com/?from=176937" target="_blank">腾讯课堂</a> | <a href="https://docs.qq.com/?adtag=QQkongjian" target="_blank">腾讯文档</a> | <a href="http://service.qq.com/special_auto/qzone.html" target="_blank">腾讯客服</a> | <a href="http://qzone.qq.com/web/tk.html" target="_blank">QQ空间服务协议</a> | <a href="http://wiki.open.qq.com/wiki/Tencent_Open_Platform_Complaint_Guidelines" target="_blank">Complaint Guidelines</a> | <a href="http://www.qq.com/culture.shtml" target="_blank">粤网文[2017]6138-1456号</a></p>
+<p>Copyright © 2005 - 2020 Tencent.<a href="http://www.tencent.com/en-us/le/copyrightstatement.shtml" target="_blank">All Rights Reserved.</a></p>
+<p>腾讯公司 <a href="http://www.tencent.com/zh-cn/le/copyrightstatement.shtml" target="_blank">版权所有</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="fix-layout"> <div class="gb-operation-area" id="_returnTop_layout_inner"> <a class="gb-operation-button return-top" href="javascript:;" id="goto_top_btn"> <i class="gb-operation-icon" title="返回顶部"></i> <span class="gb-operation-text">顶部</span> </a> <a class="gb-operation-button report" href="javascript:;" id="" style="display: block;"><span class="gb-operation-text" style="display: block;">举报</span></a></div></div>
+<script type="text/javascript">
+g_T.fwp[4] = new Date();var g_V={qz:'_v8_2.1.65',jq:'2.0.3',sea:'2.1.1',core_ic:'50108',fp:'60628',ic:'80206',popcss:'?d=140918103710',delay:'-yoo190131143813',req:'61221',ci:'_20131225'};
+
+
+var g_isPreview=0;
+var g_ISP={p:"22",
+i:"5",
+f:"1",
+c:'183.212.164.142'},
+g_type="M",
+g_Set="",
+g_ICSet="",
+g_SPrefix="",
+g_SPrefix_Server="cm.",
+g_DPrefix="",
+g_dns_name="",
+g_UserBitmap="08009c8002001101",
+g_LoginBitmap="188095a000000101",
+g_UserunimBitmap="0000008000000300",
+g_LoginUnimBitmap="180a008000801000",
+g_UserVipStarBitmap="0000000000000000",
+g_LoginVipStarBitmap="0000008000001000",
+g_Bitmap_3rd="0000000000000800",
+g_IZone_Flag=+"1",
+g_diyTitle="",
+g_SceneID=9,
+g_neatstyle=0,
+g_7DDressNo=0,
+g_StyleID="1",
+g_fullMode=6,
+g_Mode="gfp_default",
+g_frameStyle=1,
+g_version=8,
+g_isFriend=1,
+g_NowTime=1589554575,
+g_StaticFlag="0",
+g_isDirectApp=1,
+ownermode=(g_iLoginUin==g_iUin),
+ownerProfileSummary=["xixi",
+					2,
+					21,
+					"阿富汗@@赫拉特",
+					"xixi的QQ空间",
+					"",
+					"1999-3-27",
+					"0000000000000000"],
+g_isOFP="2",
+g_isHideTitle="0",
+g_icLayout="0",
+g_isFromPengYou="",
+g_isBrandQzone="",
+g_isFamousQzone="",
+g_xwMode="",
+g_needDec=1,
+g_isFastPav=1,
+g_scenarioidle="0",
+g_isBGScroll=0,
+g_TransparentLevel=0,
+g_Dressup={items:[],windows:[{appid:4,mode:0,posx:2,posy:0,posz:0,height:0,width:0,wndid:0},{appid:2,mode:0,posx:2,posy:1,posz:0,height:0,width:0,wndid:0},{appid:333,mode:0,posx:2,posy:2,posz:0,height:0,width:0,wndid:0},{appid:218,mode:0,posx:2,posy:3,posz:0,height:0,width:0,wndid:0},{appid:847,mode:0,posx:2,posy:4,posz:0,height:0,width:0,wndid:0}]},
+g_isLite=0,
+g_SeoAppId='0',
+g_like_number=+"0",
+g_supportWebp=+'1',
+g_yPos=+'',
+g_portraitTime=+'0',
+g_loginPortraitTime = + '1254961497',
+g_OSClass="os-winxp",
+g_applistWallNum = parseInt("" || "0",10),
+g_photowall = [];
+g_isStarVip = +"0",
+g_isStarVipYear = +"0",
+g_iStarVipLevel = +"0",
+
+
+    g_photowall_layout = -1;
+
+
+
+
+g_iEmoji=[],
+g_PreData={app:{
+				ret:99999,
+				data:{},
+				flag:1
+				},
+			flower:{
+				ret:0,
+				score:+"10",
+				gardener:+"2"},
+            qbossData:{
+
+        	},
+			hat:{ret:-1,
+				id:+""
+				}
+			},
+
+g_app_identifier='photo',
+qlogoDomain="store.qq.com",
+g_starstamp_pic = +'',
+g_moreModules=["v8/dress/otherview_v8","v8/core/state"],
+g_diffModules={
+    'engine' : "_ex"
+    },
+G_Param={};
+G_Param.qz_referrer='';
+
+g_weather={};
+
+g_weather['save']={
+	'country':'中国',
+	'province':'',
+	'city':'滁州市',
+	'temp':'20',
+	'weather':'阴',
+	'day':'',
+	'pm2d5':'49'
+	};
+
+var g_BLOG_LOCATION_PREFIX='b', g_BLOG_LOCATION_LOGIN_PREFIX='b';
+
+(function(){
+	var ua = {}, agent = navigator.userAgent;
+	if (window.ActiveXObject || window.msIsStaticHTML){
+		ua.ie = 6;
+		(window.XMLHttpRequest || (agent.indexOf('MSIE 7.0') > -1)) && (ua.ie = 7);
+		(window.XDomainRequest || (agent.indexOf('Trident/4.0') > -1)) && (ua.ie = 8);
+		(agent.indexOf('Trident/5.0') > -1) && (ua.ie = 9);
+		(agent.indexOf('Trident/6.0') > -1) && (ua.ie = 10);
+		(agent.indexOf('Trident/7.0') > -1) && (ua.ie = 11);
+
+		if(ua.ie == 6 || ua.ie == 7 || ua.ie == 8){
+			g_V.jq='1.10.2';
+		}
+	}
+})();
+
+
+
+</script>
+<script src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/qzfl_v8_2.1.65.js" type="text/javascript"></script>
+<script src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/sea-2.1.1.js" type="text/javascript"></script>
+<script src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/plugin-combo.js" type="text/javascript"></script>
+<script src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/app.js" type="text/javascript"></script>
+<script>
+     (function(){
+        // if(window.location.protocol!='https:' || window.g_cdn_proto !='https'){
+        //     return;
+        // }
+        var newSiDomain = 'h5.qzone.qq.com/proxy/domain/qzonestyle.gtimg.cn';
+        var cookieflag = document.cookie.indexOf('blabla')>-1;
+        if(cookieflag && (/(?:^user\.(s\d\.)?|\d{5,}\.|rc\.)qzone\.qq\.com/.test(location.host))){
+            newSiDomain = location.host+'/q/qzs';
+        }
+        (function(v,b,e,i,s){
+            var arJs=[];
+            if(!window.QZFL || !QZFL.lang){
+                arJs.push(b,s,'/ac/qzone/qzfl/qzfl',g_V.qz,'.js',e);
+            }
+            if(!window.seajs){
+                arJs.push(b,s,'/ac/lib/seajs/sea-'+g_V.sea+'.js',e);
+            }
+
+            if(arJs.length){
+
+
+                if(s.indexOf('h5.qzone.qq.com')>-1){
+                    window.g_script_retry = 'h5.qzone.qq.com';
+                }else{
+                    window.g_script_retry = 'user.qzone.qq.com';
+                }
+                arJs.push(b,s,'/c/=/qzone/v8/core/seajs_config.js,/qzone/v8/engine/plugin-combo.js?max_age=31536001',e);
+                arJs.push(b,s,'/qzone/v8/core/app.js',e);
+                document.write(arJs.join(''));
+            }
+        })(g_V,'<script type="text/javascript" charset="utf-8" src="'+(window.g_cdn_proto || window.location.protocol)+'//','"><\/script>',imgcacheDomain,newSiDomain);
+    })();
+
+</script>
+<script type="text/javascript">
+(function(){
+
+   if(!window.QZFL){
+        return;
+   }
+   var sslInfo = QZFL.cookie.get('x-stgw-ssl-info');
+   if(!sslInfo){
+        return;
+   }
+    var frags = sslInfo.split('|');
+    var isSessionReused = frags[4] == 'r';
+    var connectionNum = parseInt(frags[3] || '0',10);
+    if(window.g_iLoginUin%10 !=3){
+        //不用全部看
+        return;
+    }
+
+    if(connectionNum==1 && !ua.chrome){
+        window.haboStat && window.haboStat({
+            commandid : 'first_screen_ssl_session_reused',
+            stime : 1000,
+            resultcode : isSessionReused ? 0 : 1,
+            touin : window.g_iLoginUin || 0,
+            frequency :  1
+        });
+    }
+
+})();
+
+
+(function(){var _i=new Image(),_r=Math.random(),_re = new RegExp("(?:^|;+|\\s+)_qz_fix=([^;]*)"),m=document.cookie.match(_re),_v=!m ?"":m[1],_ph='//pinghot.qq.com/pingd?dm=homeact.qzone.qq.com.hot&url=/troubleshooter&tt=-&hottag=guanjia.qzonestyle.',_phe='&hotx=9999&hoty=9999&rand='+_r;_i.onerror=function(){var _t=new Image();if(_v>0){document.getElementById('trs_tip').innerHTML='如果您看到这个提示，说明QQ空间仍然无法正常打开，请您返回空间小助手，进行<a href="http://user.qzone.qq.com/troubleshooter#secondfix" title="空间小助手"><strong>深度修复</strong></a>';_t.src=_ph+'badagain'+_phe;}else{_t.src=_ph+'bad'+_phe;}var _d = document.createElement("div");_d.innerHTML = '<iframe frameborder="0" style="width:1px;height:1px;" src="http://user.qzone.qq.com/troubleshooter?traytip"></iframe>';document.body.appendChild(_d);};_i.onload=function(){if(_v==2){var _t=new Image();_t.src=_ph+'fixed'+_phe;}};_i.src='//'+siDomain+'/ac/qzone_v5/client/year_vip_icon.png?i='+_r;})();
+QZFL.event.onDomReady(function(){
+    g_T.fwp[3] = new Date();
+});
+
+
+
+    var fsimg = document.getElementById("full_background_img");
+    if(fsimg){
+        window.adjust_full_screen_skin = function(){
+            var bg = document.getElementById('full_background'),
+                    bg_img=document.getElementById('full_background_img'),
+                    cw = QZFL.dom.getClientWidth(),
+                    ch = QZFL.dom.getClientHeight(),
+                    iw = bg_img.width,
+                    ih = bg_img.height;
+
+                bg.style.width=cw+"px";
+                bg.style.height=ch+"px";
+
+                if (cw / ch > iw / ih) {
+                    var new_h = cw * ih / iw,
+                        imgTop = (ch - new_h) / 2;
+                    bg_img.style.width=cw + "px";
+                    bg_img.style.height=new_h + "px";
+                    bg_img.style.top="";
+                    bg_img.style.left="";
+                }else {
+                    var new_w = ch * iw / ih,
+                        imgLeft = (cw - new_w) / 2;
+                    bg_img.style.width=new_w + "px";
+                    bg_img.style.height=ch + "px";
+                    bg_img.style.left=imgLeft + "px";
+                    bg_img.style.top="";
+                }
+        };
+        if (!QZONE.shop || !QZONE.shop.initDressUp) {
+            var url = fsimg.getAttribute("data-src");
+            fsimg.onload = adjust_full_screen_skin;
+            fsimg.src = url;
+        }
+    }
+
+    var mc = document.getElementById('menuContainer');
+    var oldGuideMap = {
+        N2: "myhome",
+        3: "305",
+        5: "4",
+        6: "306",
+        7: "1",
+        8: "3",
+        10: "311",
+        11: "323",
+        13: "338",
+        14: "myhome",
+        15: "yellowgrade",
+        17: "333",
+        18: "340"
+    };
+    var isDefaultMenu = '' == 1,
+        isCustom = '' & 2 > 0,
+        isMobile = (window.ua && (ua.isiPhone || ua.isiPad)),
+        lst;
+    window.getHotTagPrefix = function(){
+            var env = window.g_app_identifier != "" ? 'app' : (window.g_isOFP == "0" ? 'home' : 'center');
+
+            return env + 'click' +  (window.ownermode ? "-host" : "-guest");
+        };
+    window.custom_menu_swf = function(id) {
+        if(QZFL.userAgent.chrome || QZFL.userAgent.safari){
+            var _cbi = document.getElementById('_chrome_bug_input');
+            if(!_cbi){
+                var _laybg = document.getElementById('layBackground');
+                QZFL.dom.createElementIn("input",_laybg,false,{id:"_chrome_bug_input",type:'text',style:"border:1px;width:1px;position:absolute;left:-10px;"});
+                _cbi =  document.getElementById('_chrome_bug_input');
+            }
+            _cbi.focus();
+        }
+
+        if (id != 'close') {
+            id = (!isCustom && !isDefaultMenu && !isMobile) ? (oldGuideMap[id] || id) : id;
+            if(id == "-1" || id == "N1"){
+                id = "main";
+            }
+            if (id == '5' || id == '7') {
+                id = oldGuideMap[id];
+            }
+            var _p = getHotTagPrefix();
+            window.TCISD && TCISD.hotClick("menu_v8."+_p+".appid_"+id, "8.qzone.qq.com");
+            if(id == '219'){
+                if(QZONE.music && typeof(QZONE.music.switchPage)=="function"){
+                    QZONE.music.switchPage();
+                }
+            }else{
+                if(QZONE.FrontPage && QZONE.FrontPage.toApp) {
+                    QZONE.FrontPage.toApp("/" + id);
+                }
+            }
+        }
+        return false;
+    };
+    if (!QZONE.shop || !QZONE.shop.initDressUp) {
+        mc && QZFL.event.delegate(mc, 'li', 'click', function (e) {
+            QZFL.event.preventDefault(e);
+            this.className = this.className.replace(/_\-1/, '_N1');
+            var appid = this.className.match(/menu_item_([A-Z0-9\-]*)/i);
+            appid && appid[1] && custom_menu_swf(appid[1]);
+            if (lst) {
+                QZFL.css.removeClassName(lst, 'cur');
+            }
+            lst = this;
+            QZFL.css.addClassName(lst, 'cur');
+        });
+        mc && mc.setAttribute('reged', '1');
+    }
+
+(function(){try{if(parent!=self && (parent.document.domain!=document.domain || (document.referrer && !/^http(s)?:\/\/[.\w-]+\.qq\.com\//i.test(document.referrer)))){throw new Error("can't be iframed");}}catch(e){window.open(location.href, "_top");}})();
+    /**
+     * β 增加新接口 获取通过URL传递的参数值
+     * @param {String} name 参数的名称
+     */
+    var getParameter = function(url, name){
+        var r = new RegExp("(\\?|#|&)" + name + "=([^&#]*)(&|#|$)"),
+            m = url.match(r);
+        return (!m ? "" : m[2]);
+    };
+    //上报用iframe嵌套qzone的用户
+    var qq = getParameter(location.href, 'qzoneInIframe');
+    if(qq) {
+        TCISD.stringStat(1000100, {
+                bid: 108146,
+                rc: 'QQ:' + qq
+        }, {
+            reportRate: 1
+        });
+    }
+    var clickReport = getParameter(location.href, 'clickReport');
+    if(window.TCISD && window.TCISD.pv) {
+        TCISD.pv('user.qzone.qq.com', clickReport);
+    }
+
+
+
+
+
+
+</script>
+<script type="text/javascript">
+window.g_qzonetoken = (function(){ try{return "a54d9ede2dc80023c891ab94c1fb8378d705d1a1c7550dc6f28a96e5d7c7177e507cda0745e976ef7f0c";} catch(e) {var xhr = new XMLHttpRequest();xhr.withCredentials = true;xhr.open('post', '//h5.qzone.qq.com/log/post/error/qzonetoken', true);xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');xhr.send(e);}})();
+
+/**
+ * 框架机模调上报
+ */
+var reportMd = function (code, type, delay) {
+	//使用模调测速
+	var url = "//h5.qzone.qq.com/report/md?"
+		+ "fromId=204971707&toId=211006088&interfaceId=111900240"
+		+ (typeof code == 'undefined' ? '' : ("&code=" + code))
+		+ (typeof type == 'undefined' ? '' : ("&type=" + type))
+		+ (typeof delay == 'undefined' ? '' : ("&delay=" + Math.min(delay, 10 * 1000)))
+		+ '&r=' + Math.random();
+	var img = new Image();
+	img.src = url;
+};
+
+reportMd(0, 0, 1);
+
+/**
+ * websocket支持度统计上报
+ */
+var url = "https://h5.qzone.qq.com/report/md?"
++ "fromId=204971724&toId=204971725&refer=lovezone&interfaceId="
++ '104985283' + "&code=" + (window.WebSocket ? 0 : 1)
++ "&type=0"
++ '&r=' + Math.random();
+var img = new Image();
+img.src = url;
+</script>
+<script src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/iframeReport.js"></script>
+<div style="position: static; display: none; width: 0px; height: 0px; border: none; padding: 0px; margin: 0px;"><div id="trans-tooltip"><div id="tip-left-top" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-left-top.png");'></div><div id="tip-top" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-top.png") repeat-x;'></div><div id="tip-right-top" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-right-top.png");'></div><div id="tip-right" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-right.png") repeat-y;'></div><div id="tip-right-bottom" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-right-bottom.png");'></div><div id="tip-bottom" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-bottom.png") repeat-x;'></div><div id="tip-left-bottom" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-left-bottom.png");'></div><div id="tip-left" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-left.png");'></div><div id="trans-content"></div></div><div id="tip-arrow-bottom" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-arrow-bottom.png");'></div><div id="tip-arrow-top" style='background: url("chrome-extension://ikkepelhgbcgmhhmcmpfkjmchccjblkd/imgs/map/tip-arrow-top.png");'></div></div><div class="photo_layer js-viewer-container" id="js-viewer-container" style="z-index: 5500; position: fixed; top: 0px; height: 610px; padding-top: 16px; display: none;">
+<div class="photo_bg_layer js-viewer-layer" id="js-viewer-layer" onclick="javascript:if(slide.util.getParameter('inqq')){return;}try{slide&amp;&amp;slide.beforeClose();}catch(err){}var ctn = document.getElementById('js-viewer-container');ctn.style.display='none';slide&amp;&amp;slide.close({noTriggerBeforeClose:true});" style="height: 610px;"></div>
+<div class="screen_handle_tab" style="display:none">
+<p class="comment" title="评论"><i class="icon icon_comment_bphoto"><i></i></i></p>
+<p class="reproduced" title="转载"><i class="icon icon_reproduced_bphoto"><i></i></i></p>
+<p class="share" title="分享"><i class="icon icon_share_bphoto"><i></i></i></p>
+</div>
+<!--图片区S-->
+<div class="photo_figure" id="js-viewer-figure" style="margin-top: 0px; margin-left: 0px;">
+<div class="photo_figure_main" id="js-viewer-main" style="width: 1065.67px; height: 578px;">
+<div class="photo_layer_close" data-toggle="tooltip" onclick="javascript:try{slide&amp;&amp;slide.beforeClose();}catch(err){}var ctn = document.getElementById('js-viewer-container');ctn.style.display='none';slide&amp;&amp;slide.close({noTriggerBeforeClose:true});" ontouchend="javascript:try{slide&amp;&amp;slide.beforeClose();}catch(err){}var ctn = document.getElementById('js-viewer-container');ctn.style.display='none';slide&amp;&amp;slide.close({noTriggerBeforeClose:true});return false;" title="关闭">
+<a href="javascript:void(0);" onclick="return false;">关闭</a>
+</div>
+<div class="photo_layer_close" id="js-hdmode-close" style="display:none;" title="退出全屏模式"><a href="javascript:;">关闭</a></div>
+<!--图片展示区S-->
+<div class="figure_area" id="js-viewer-imgWraper" style="width: 745.667px; margin-top: 0px; height: 518px;">
+<input id="js-focus-input" style="position:absolute;top:0px;left:0px;width:1px;height:1px;font-size:0;border:1px;outline:none;opacity:0.1;filter:alpha(opacity=10)" type="text" value=""/>
+<p class="HD" style="z-index:500;display:none;"><a href="javascript:;" target="_blank">查看原图<span id="js-hd-size"></span></a></p>
+<a canbeshow="0" class="show-original" href="javascript:void(0);" id="js-link-hd" style="display: none; right: 191px; top: 14px;">查看原图</a>
+<span class="video-loading js-video-singletip js-video-loading" style="display: none;"><i class="inner"></i></span><div class="figure_img" hidefocus="true" id="js-image-ctn" onselectstart="return false;" style="-moz-user-select:none;position:relative;">
+<img has-show="" hidefocus="true" id="js-img-disp" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/b.gif" style="position: absolute; opacity: 1; left: 0px; top: 0px; width: 0px; height: 0px; display: none;"/>
+<img hidefocus="true" id="js-img-trans" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/b.gif" style="display: none; position: absolute; left: 0px; top: 0px; width: 0px; height: 0px;"/>
+<div class="figure_img_bor" id="js-img-border" style="position: absolute; z-index: 4; height: 520px; width: 394px; left: 177px; top: 0px; display: block;"><img has-show="1" hidefocus="true" id="" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/b.gif" style="opacity: 0; display: none; width: 0px; height: 0px; left: 0px; top: 0px;"/></div><div class="js-video-flash-ctn" data-vpjs-video-id="1589555354184" id="videoViewerCtn" style="position: absolute; top: -3px; left: -3px; width: 3px; height: 3px; z-index: 10; display: none;"><div class="vpjs-playerContainer" data-index="" data-vpjs-video-id="1589555354184" id="videoViewer" style="width: 100%; height: 100%; overflow: hidden; background: rgb(0, 0, 0); position: relative; top: 0px; left: 0px;"><div id="vpjs-videoContainer-1589555354184" style="width: 100%; height: 100%; position: relative; z-index: 0;">
+<video id="vpjs-video-1589555354184" playsinline="true" preload="auto" src="http://photovideo.photo.qq.com/1075_0b53juzqayqahuaj7o53arpdgtieacvabyka.f20.mp4?dis_k=3742103da2065902fc6ef98c6db79641&amp;dis_t=1589555358&amp;vuin=383817842" style="width: 99.92999999999999%; height: auto; margin-top: 0; margin-left: 0.0335%; position: absolute; left: 0; top: 0;" webkit-playsinline="true" x-webkit-airplay="true">
+</video>
+</div><div id="vpjs-videoPoster-1589555354184" style="display: none;">
+<div style="background:url() no-repeat center;
+            background-size: contain;
+            background-color: #000;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;">
+</div>
+</div><div id="vpjs-videoMask-1589555354184">
+<div style="top: 0; left: 0; bottom: 0; position: absolute; right: 0;"></div>
+</div><div class="vpjs-videoControlBar vpjs-fade vpjs-fadeout" data-status="pause" id="vpjs-videoControlBar-1589555354184" style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; display: block;">
+<div class="vpjs-controls">
+<!-- 直播进度 S-->
+<div class="vpjs-progress-pane">
+<div class="vpjs-controls-progress">
+<div class="vpjs-buffer-bar" style="width: 0px;">
+</div>
+<div class="vpjs-progress-bar" style="width: 0px;">
+<svg class="vpjs-progress-icon-pointer" height="26" version="1.1" viewbox="-6.5 -6.5 26 26" width="26" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="6" cy="6" fill="#fff" r="6"></circle>
+<circle class="vpjs-icon-pointer-hover" cx="4" cy="4" fill="#ffc028" r="4" transform="translate(2.6, 2.6) scale(0.875, 0.875)"></circle>
+</svg>
+</div>
+</div>
+</div>
+<div class="vpjs-controls-left">
+<!-- 播放按钮 -->
+<div class="vpjs-controls-btn">
+<svg class="vpjs-ui-icon vpjs-btn-play" height="32" version="1.1" viewbox="-7 -8 28 32" width="28" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path class="vpjs-icon-play" d="M0.975,1.125 L0.975,16.818 C1.207,17.046 1.582,17.046 1.814,16.818 L13.804,9.384 C14.036,9.156 14.036,8.786 13.804,8.558 L1.814,1.125 C1.582,0.897 1.207,0.897 0.975,1.125 Z"></path>
+<path class="vpjs-icon-pause" d="M13.000,16.000 C13.000,16.000 9.969,16.000 9.969,16.000 C9.416,16.000 8.969,15.552 8.969,15.000 C8.969,15.000 8.969,1.000 8.969,1.000 C8.969,0.448 9.416,0.000 9.969,0.000 C9.969,0.000 13.000,0.000 13.000,0.000 C13.552,0.000 14.000,0.448 14.000,1.000 C14.000,1.000 14.000,15.000 14.000,15.000 C14.000,15.552 13.552,16.000 13.000,16.000 ZM4.000,16.000 C4.000,16.000 1.000,16.000 1.000,16.000 C0.448,16.000 0.000,15.552 0.000,15.000 C0.000,15.000 0.000,0.997 0.000,0.997 C0.000,0.444 0.448,-0.003 1.000,-0.003 C1.000,-0.003 4.000,-0.003 4.000,-0.003 C4.552,-0.003 5.000,0.444 5.000,0.997 C5.000,0.997 5.000,15.000 5.000,15.000 C5.000,15.552 4.552,16.000 4.000,16.000 Z"></path>
+</svg>
+</div>
+<div class="vpjs-controls-btn">
+<span class="vpjs-time">
+<b class="j-cur-time-text">00:07</b>/<span class="j-total-time-text">00:10</span>
+</span>
+</div>
+</div>
+<div class="vpjs-controls-right">
+<div class="vpjs-controls-btn">
+<svg class="vpjs-ui-icon" height="25" version="1.1" viewbox="-4.5 -4 28 25" width="28" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path class="vpjs-icon-fullscreen" d="M18.020,7.027 L18.020,7.031 L18.019,7.031 C17.985,7.587 17.533,8.031 16.969,8.031 C16.461,8.031 16.061,7.665 15.958,7.187 L15.958,4.156 C15.958,3.916 15.910,3.688 15.836,3.473 L11.364,8.038 C10.970,8.432 10.330,8.432 9.935,8.038 C9.540,7.644 9.540,7.005 9.935,6.611 L14.373,2.150 C14.191,2.099 14.002,2.062 13.804,2.062 L10.721,2.062 C10.289,1.928 9.969,1.539 9.969,1.063 C9.969,0.476 10.444,-0.000 11.031,-0.000 C11.053,-0.000 11.071,0.011 11.092,0.012 L11.092,-0.000 L15.865,-0.000 C17.037,-0.000 18.020,0.951 18.020,2.125 L18.020,6.911 C18.021,6.931 18.031,6.948 18.031,6.969 C18.031,6.989 18.021,7.006 18.020,7.027 ZM4.596,14.913 C4.778,14.964 4.966,15.000 5.165,15.000 L8.341,15.000 C8.774,15.134 9.094,15.461 9.094,15.937 C9.094,16.524 8.618,17.000 8.031,17.000 C8.010,17.000 7.992,16.989 7.971,16.988 L7.971,17.000 L3.104,17.000 C1.931,17.000 0.980,16.049 0.980,14.875 L0.980,10.058 C0.979,10.038 0.969,10.021 0.969,10.000 C0.969,9.979 0.979,9.962 0.980,9.942 L0.980,9.938 L0.981,9.938 C1.015,9.381 1.467,8.937 2.031,8.937 C2.539,8.937 2.907,9.304 3.010,9.781 L3.010,12.813 C3.010,13.053 3.059,13.281 3.133,13.496 L7.573,8.993 C7.968,8.599 8.608,8.599 9.003,8.993 C9.397,9.387 9.397,10.026 9.003,10.420 L4.596,14.913 Z"></path>
+<path class="vpjs-icon-shrink" d="M16.690,1.701 C16.690,1.701 12.596,5.850 12.596,5.850 C12.778,5.901 12.966,5.938 13.165,5.938 C13.165,5.938 15.247,5.938 15.247,5.938 C15.680,6.072 16.000,6.461 16.000,6.937 C16.000,7.524 15.524,8.000 14.937,8.000 C14.916,8.000 14.898,7.989 14.877,7.988 C14.877,7.988 14.877,8.000 14.877,8.000 C14.877,8.000 11.104,8.000 11.104,8.000 C9.931,8.000 8.980,7.049 8.980,5.875 C8.980,5.875 8.980,2.058 8.980,2.058 C8.979,2.038 8.969,2.021 8.969,2.000 C8.969,1.979 8.979,1.962 8.980,1.942 C8.980,1.942 8.980,1.937 8.980,1.937 C8.980,1.937 8.981,1.937 8.981,1.937 C9.015,1.382 9.467,0.938 10.031,0.938 C10.540,0.938 10.939,1.304 11.042,1.781 C11.042,1.781 11.042,3.813 11.042,3.813 C11.042,4.053 11.090,4.281 11.164,4.496 C11.164,4.496 15.261,0.274 15.261,0.274 C15.655,-0.120 16.295,-0.120 16.690,0.274 C17.085,0.668 17.085,1.307 16.690,1.701 ZM7.988,15.031 C7.988,15.031 7.987,15.031 7.987,15.031 C7.953,15.587 7.502,16.031 6.938,16.031 C6.429,16.031 6.061,15.665 5.958,15.187 C5.958,15.187 5.958,13.156 5.958,13.156 C5.958,12.916 5.910,12.688 5.836,12.473 C5.836,12.473 1.708,16.694 1.708,16.694 C1.313,17.088 0.673,17.088 0.279,16.694 C-0.116,16.300 -0.116,15.662 0.279,15.268 C0.279,15.268 4.373,11.056 4.373,11.056 C4.191,11.005 4.002,10.969 3.804,10.969 C3.804,10.969 1.722,10.969 1.722,10.969 C1.289,10.834 0.969,10.508 0.969,10.031 C0.969,9.444 1.444,8.969 2.031,8.969 C2.053,8.969 2.071,8.980 2.092,8.981 C2.092,8.981 2.092,8.969 2.092,8.969 C2.092,8.969 5.865,8.969 5.865,8.969 C7.038,8.969 7.988,9.920 7.988,11.094 C7.988,11.094 7.988,14.911 7.988,14.911 C7.989,14.931 8.000,14.948 8.000,14.969 C8.000,14.989 7.989,15.006 7.988,15.027 C7.988,15.027 7.988,15.031 7.988,15.031 Z"></path>
+</svg>
+</div><div class="vpjs-controls-btn" data-status="">
+<svg class="vpjs-ui-icon" height="24.18" version="1.1" viewbox="-3 -2.59 28 24.18" width="28" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path class="vpjs-icon-voice" d="M18.219,17.421 C18.057,17.551 17.864,17.616 17.671,17.616 L17.669,17.612 C17.417,17.612 17.166,17.503 16.994,17.292 C16.691,16.919 16.747,16.371 17.119,16.068 C18.958,14.573 20.012,12.355 20.012,9.988 C20.012,7.621 18.958,5.405 17.121,3.908 C16.749,3.605 16.691,3.057 16.996,2.684 C17.300,2.312 17.846,2.254 18.219,2.559 C20.464,4.387 21.752,7.095 21.752,9.990 C21.752,12.885 20.464,15.591 18.219,17.421 ZM16.365,13.367 C16.203,13.497 16.010,13.562 15.817,13.562 L15.817,13.558 C15.565,13.558 15.315,13.449 15.142,13.238 C14.840,12.865 14.895,12.317 15.268,12.014 C15.880,11.515 16.231,10.777 16.231,9.988 C16.231,9.200 15.880,8.460 15.268,7.962 C14.895,7.659 14.838,7.111 15.142,6.738 C15.447,6.366 15.993,6.308 16.365,6.613 C17.386,7.443 17.971,8.674 17.971,9.990 C17.971,11.306 17.385,12.536 16.365,13.367 ZM11.503,18.990 C11.073,18.990 10.642,18.809 10.223,18.452 L5.938,15.015 L3.592,15.015 C2.153,15.015 0.983,13.843 0.983,12.404 L0.983,7.566 C0.983,6.126 2.153,4.955 3.592,4.955 L5.938,4.955 L10.223,1.392 C10.644,1.035 11.073,0.854 11.503,0.854 L11.503,0.852 C12.239,0.852 12.982,1.415 12.982,2.668 L12.982,17.176 C12.982,17.650 12.876,18.048 12.669,18.360 C12.401,18.760 11.976,18.990 11.503,18.990 ZM5.389,6.978 L3.873,6.978 C3.393,6.978 3.003,7.368 3.003,7.849 L3.003,12.030 C3.003,12.511 3.393,12.994 3.873,12.994 L5.389,12.994 L5.389,6.978 ZM10.992,3.342 L7.128,6.510 L7.128,11.684 L7.097,6.560 L5.423,7.033 L5.389,13.005 L7.139,13.472 L7.139,13.472 L10.992,16.631 L10.992,3.342 Z"></path>
+<path class="vpjs-icon-silence" d="M18.845,10.500 L20.651,12.306 C21.035,12.690 21.035,13.313 20.651,13.698 C20.266,14.082 19.643,14.082 19.259,13.698 L17.453,11.892 L15.663,13.682 C15.279,14.066 14.656,14.066 14.271,13.682 C13.887,13.298 13.887,12.674 14.271,12.290 L16.061,10.500 L14.287,8.726 C13.902,8.341 13.902,7.718 14.287,7.334 C14.671,6.949 15.294,6.949 15.679,7.334 L17.453,9.108 L19.243,7.318 C19.627,6.934 20.251,6.934 20.635,7.318 C21.020,7.702 21.020,8.326 20.635,8.710 L18.845,10.500 ZM11.503,18.990 C11.073,18.990 10.642,18.809 10.223,18.452 L5.938,15.015 L3.592,15.015 C2.154,15.015 0.983,13.843 0.983,12.404 L0.983,7.566 C0.983,6.126 2.154,4.955 3.592,4.955 L5.938,4.955 L10.223,1.392 C10.644,1.035 11.073,0.854 11.503,0.854 L11.503,0.852 C12.239,0.852 12.982,1.415 12.982,2.668 L12.982,17.176 C12.982,17.650 12.876,18.048 12.669,18.360 C12.401,18.760 11.976,18.990 11.503,18.990 ZM5.389,6.978 L3.873,6.978 C3.393,6.978 3.003,7.368 3.003,7.849 L3.003,12.030 C3.003,12.511 3.393,12.994 3.873,12.994 L5.389,12.994 L5.389,6.978 ZM10.992,3.342 L7.128,6.510 L7.128,11.684 L7.097,6.560 L5.423,7.033 L5.389,13.005 L7.139,13.472 L7.139,13.472 L10.992,16.631 L10.992,3.342 Z"></path>
+</svg>
+<div class="vpjs-voice-progress-container" style="visibility: hidden;">
+<div class="vpjs-voice-progress">
+<div class="vpjs-voice-progress-bar" style="height: 30px;">
+<svg class="vpjs-voice-icon-pointer" height="21.66" version="1.1" viewbox="-6.5 -6.5 26 26" width="21.66" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="6" cy="6" fill="#fff" r="6"></circle>
+<circle class="vpjs-icon-pointer-hover" cx="4" cy="4" fill="#ffc028" r="4" transform="translate(2.6, 2.6) scale(0.875, 0.875)"></circle>
+</svg>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div><div id="vpjs-videoLoading-1589555354184" style="display: none;">
+<div style="background: url(//qzonestyle.gtimg.cn/aoi/img/video-loading-bg.png) no-repeat center;
+                background-size: cover;
+                width: 40px;
+                height: 24px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -20px;
+                margin-top: -12px;">
+<i style="background: url(//qzonestyle.gtimg.cn/aoi/img/video-loading.gif);  display: block; width: 40px; height: 24px;"></i>
+</div>
+</div><div id="vpjs-videoBigPlayButton-1589555354184" style="display: none;">
+<span style="background: url(//qzonestyle.gtimg.cn/qzone/hybrid/common/videoPlayer/img/big-play-button.png) no-repeat center;
+            background-size: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 60px;
+            height: 60px;
+            margin-left: -30px;
+            margin-top: -30px;
+            cursor: pointer;">
+</span>
+</div><div id="vpjs-videoError-1589555354184" style="display: none;">
+<div style="position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: -webkit-linear-gradient(-30deg, #89bac9, #d8cecd, #89bac9);
+            background: -o-linear-gradient(-30deg, #89bac9, #d8cecd, #89bac9);
+            background: -moz-linear-gradient(-30deg, #89bac9, #d8cecd, #89bac9);
+            background: linear-gradient(-30deg, #89bac9, #d8cecd, #89bac9);
+            z-index: 98;">
+</div>
+<div style="position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: url(//qzonestyle.gtimg.cn/qzone/hybrid/common/videoPlayer/img/error.jpg) no-repeat center;
+            background-size: cover;
+            z-index: 99;">
+<p style="position: absolute;
+                left: 50%;
+                top: 50%;
+                text-align: center;
+                width: 200px;
+                margin-left: -100px;
+                margin-top: -9px;">
+<span class="vpjs-error-message" style="vertical-align: middle;">
+                    网络异常，请重试
+                </span>
+</p>
+</div>
+</div></div></div></div>
+<!--TODO: -->
+<div class="mod-figure-area" id="js-figure-area" style="display: none;">
+<div class="figure-desc figure-desc-empty" id="js-ctn-infoBar" style="display: none;"></div>
+<div class="figure-handle">
+<ul>
+<li style="display: none;">
+<a class="icon-wrap js-show-normal func-zoom" href="javascript:;" id="js-btn-changeMode" style="display:none" title="点击放大"><i class="icon-m icon-magnify"></i></a>
+</li>
+<li>
+<a class="icon-wrap func-zoom" href="javascript:void(0)" id="js-btn-rotateRight" style="display: none;" title="旋转"><i class="icon-m icon-rotate"></i></a>
+</li>
+<li>
+<div class="photo-view-mode">
+<a class="js-normal-mode mode-normal" href="javascript:void(0)" title="小图模式"><i class="icon-m icon-small-view">小图模式</i></a>
+<a class="js-large-mode js-large-button mode-large" href="javascript:void(0)" title="大图模式"><i class="icon-m icon-big-view">大图模式</i></a>
+<a class="js-large-mode js-hd-button mode-hd" href="javascript:void(0)" style="display: none;" title="大图模式"><i class="icon-m icon-hd-view">高清模式</i></a>
+</div>
+</li>
+<li>
+<div class="photo-hd-mode photo-hd-all" style="display:none;">
+<a class="func-more js-large-mode" href="javascript:void(0)" title="大图模式"><i class="icon-m icon-hd-m">HD</i></a>
+</div>
+</li>
+<li>
+<div class="photo-hd-mode">
+<a class="func-more" href="javascript:void(0)" id="js-btn-fullscreen" style="display: none;" title="幻灯片播放"><i class="icon-m icon-full-view"></i>播放</a>
+</div>
+</li>
+</ul>
+</div>
+<div class="figure-area-mask"></div>
+</div>
+<div class="figure_img_map" id="js-map-ctn" style="display:none;">
+<img id="js-img-map" src="./xixi的QQ空间 [http___1647567335.qzon1288e.qq.com]_files/b.gif" style="display:none"/>
+<p class="visible_area" id="js-map-handler" style="display:none;cursor:move;"></p>
+</div>
+<div class="scale_num" id="_slideView_scale_num" style="display:none"><p>150%</p></div>
+<div class="photo-save-tip" id="js-btn-saveRotate" style="display:none">
+<div class="save-tip-cont">
+<p> 是否保存旋转后的照片？</p>
+<div class="save-tip-op">
+<a class="save-tip-select js-save-rotate-ok" href="javascript:;">保存</a>
+<a href="javascript:;">取消</a>
+</div>
+</div>
+</div>
+<a class="js-btn-changePhoto figure-area-arrow arrow-pre" href="javascript:;" id="js-btn-prevPhoto" style="top: 45%; display: none;">上一张</a>
+<a class="js-btn-changePhoto figure-area-arrow arrow-next arrow-next-hover" href="javascript:;" id="js-btn-nextPhoto" style="top: 45%; display: none;">下一张</a>
+<a class="play-the-video" href="javascript:void(0)" id="js-btn-play-gif" style="z-index:100;display:none;" title="播放"></a>
+</div>
+<!--图片展示区e-->
+<!--图片右侧详情区S-->
+<div class="figure-side" id="js-sidebar-ctn" style="padding-bottom: 30px; height: 548px; overflow: hidden;">
+<div class="figure-side-wrap">
+<div class="figure-side-bg" id="js-cmt-wrap" style="">
+<div class="figure-side-inner">
+<!--照片所属信息区S-->
+<div class="figure-side-hd">
+<div class="js-userinfo-ctn"></div>
+<!--照片编辑区S-->
+<div class="info-edit" id="js-desc-editor" style="display:none;">
+<div class="tit-edit-warp textinput js-title-editor">
+<div class="tit-edit">
+<input class="js-desc-title" type="text"/>
+<span class="watermark">照片标题</span>
+<span class="num-count"><span class="num-hint js-desc-title-currword">30</span>/30</span>
+</div>
+</div>
+<div class="desc-edit js-desc-cont">
+<span class="num-count"><span class="num-hint js-desc-currword">0</span>/200</span>
+</div>
+<div class="info-submit">
+<a class="info-confirm js-desc-ok" href="javascript:void(0)">确定</a>
+<a class="info-cancel js-desc-cancel" href="javascript:void(0)">取消</a>
+</div>
+</div>
+</div>
+<!--照片评论区S-->
+<div class="handle-tab" style="display: block;">
+<ul>
+<li class="praise" id="js-viewer-like" style="display: none;" title="赞"></li>
+<li>
+<a class="handle-item" href="javascript:;" id="js-viewer-comment" style="display: none;" title="评论"><i class="icon-m icon-comment-m">评论</i><span class="btn-txt">评论</span><span class="btn-txt-num"></span></a>
+</li>
+<li id="js-interactive-btn">
+<a class="handle-item" href="javascript:;"><i class="icon-m icon-reproduced-m">互动</i><span class="btn-txt"></span><span class="btn-txt-num"></span></a>
+</li>
+<li class="more" id="js-othermenu-btn">
+<a class="handle-item" href="javascript:;"><i class="icon-m icon-other-m">其他</i></a>
+</li>
+</ul>
+</div>
+<p class="figure_praise_num js_fade_like" id="_slideView_like"></p>
+<div class="figure-interactive">
+<p class="figure_praise_num" id="js-like-list" style="display: none;"></p>
+<div class="comment-tab" id="j-comment-tab" style="display:none">
+<a class="tab-selected" data-type="friend" href="javascript:;">好友评论</a>
+<a data-type="cmtreply" href="javascript:;">精选评论</a>
+</div>
+<div class="handle_main js_show_comment" id="js-comment-ctn" style="visibility: visible;">
+<div class="js_mod_comment_module" id="js-comment-module"></div>
+<div class="js_mod_retweet" id="js-mod-retweet">
+</div>
+</div>
+</div>
+<!--我评论区E-->
+<!--照片评论区E-->
+</div>
+</div>
+<div class="figure-comment js-can-comment" style="display: block;"></div>
+</div>
+<div data-inqq="1" id="js-qq-ad" style="display:none; left:20px; position: absolute; height: 110px; width: 260px; overflow: hidden; bottom: 55px;">
+<a class="j-corner" href="http://e.qq.com/reg-new" style="bottom: 3px;" target="_blank"><div class="tr"></div>
+<div class="info">
+<p class="text1"></p>
+<p class="text2"></p>
+</div></a></div>
+<!--圈人推荐-->
+<div class="figure-side-circle" id="js-face-area" style="display:none;">
+</div>
+<div class="friend-list-wrap j-selector-wrap" style="width:170px; top:-999px; left:112px; display:none;">
+</div>
+<!--互动菜单-->
+<div class="mod-layer-drop" id="js-interactive-menu" style="left:-3px;display:none;">
+<ul>
+<li style="display:none;">
+<a href="javascript:;" id="js-viewer-reprint">转载</a>
+</li>
+<li style="display:none">
+<a class="retweet js_retweet" href="javascript:;" id="js-viewer-retweet" title="转发">转发</a>
+</li>
+<li style="">
+<a href="javascript:;" id="js-btn-sharePhoto">分享</a>
+</li>
+<li style="">
+<a href="javascript:;" id="js-btn-copyAddress">复制地址</a>
+</li>
+</ul>
+<span class="mod-arr mod-arr-t"><span></span></span>
+</div>
+<!--其他菜单-->
+<div class="mod-layer-drop" id="js-other-menu" style="left:-4px;display:none">
+<ul>
+<li class="js-hide-when-video" data-orivisible="-1" id="js-btn-open-quanren" style="display:none;">
+<a href="javascript:;">圈人</a>
+<span class="drop-item-seprate"></span>
+</li>
+<li id="js-btn-cover-li" style="display:none;">
+<a href="javascript:;" id="js-btn-cover">设为封面</a>
+</li>
+<li id="js-btn-qzone-cover-li" style="display:none;">
+<a href="javascript:;" id="js-btn-qzone-cover">主页展示</a>
+</li>
+<li id="js-btn-movePhoto-li" style="display:none;">
+<a href="javascript:;" id="js-btn-movePhoto">移动</a>
+</li>
+<li id="js-btn-downloadPhoto-li">
+<a data-downloadtype="video" href="javascript:;" id="js-btn-downloadPhoto">下载视频</a>
+<!--<div class="more-download" style="display:none">
+								<ul>
+									<li><a href="javascript:void(0)" id="js-btn-downloadNormalInViewer">大图 </a></li>
+									<li><a href="javascript:void(0)" id="js-btn-downloadOrigin">原图 </a></li>
+									<li><a href="javascript:void(0)" id="js-btn-downloadHighClear">高清图 </a></li>
+								</ul>
+								<i class="more-download-arr"></i>
+							</div>-->
+</li>
+<li id="js-btn-collect-li" style="display: none;">
+<a href="javascript:;" id="js-btn-collect">收藏</a>
+</li>
+<li id="js-btn-delPhoto-li" style="display:none;">
+<a href="javascript:;" id="js-btn-delPhoto">删除</a>
+</li>
+<!--
+	                    <li id="js-btn-meihua-li" class="js-hide-when-video" style="display:none;">
+		                    <span class="drop-item-seprate"></span>
+		                    <a href="javascript:;" id="js-btn-meihua">美化</a>
+	                    </li>
+	                    <li id="js-btn-tuya-li" class="js-hide-when-video" style="display:none;">
+		                    <a href="javascript:;" id="js-btn-tuya">涂鸦</a>
+	                    </li>
+	                    <li id="js-btn-meituxiuxiu-li" class="js-hide-when-video" style="display:none;">
+		                    <a href="javascript:;" id="js-btn-meituxiuxiu"  class="open-meitu">美图秀秀</a>
+	                    </li>
+	                    -->
+<li id="js-btn-follow-li" style="display:none;">
+<a class="open-meitu" href="javascript:;" id="js-btn-follow"></a>
+</li>
+</ul>
+<span class="mod-arr mod-arr-t"><span></span></span>
+</div>
+<div class="figure-side-ft" id="js-sidebar-foot">
+<a class="js-report-btn op-pic-policy" href="javascript: void(0);"><i></i>举报</a> <a class="suggest-support" href="http://support.qq.com/write.shtml?fid=944&amp;SSTAG=slideversion%3Dviewer2" target="_blank"><i></i>建议反馈</a> </div>
+</div>
+<!--图片右侧详情区e-->
+</div>
+</div>
+<!--图片区e-->
+<div class="photo_minimap_switch" id="js-ctn-switch" style="display: none;">
+<div class="inner" id="js-switch-inner" style="top: 0px;">
+<div class="photo_minimap_fold" id="js-thumb-unexpand"><a class="switch" href="javascript:;"><b class="ui_trig ui_trig_b"></b><span class="txt">收起</span></a></div>
+<div class="photo_minimap_unfold" id="js-thumb-expand"><a class="switch" href="javascript:;"><b class="ui_trig ui_trig_t"></b></a></div>
+</div>
+</div>
+<!--缩略图滚动区S-->
+<div class="photo_minimap_v2" id="js-thumb-ctn" onselectstart="return false;" style="width: 1066px; opacity: 1;">
+<h4 class="mod-title" id="js-thumb-title" style="display: none; padding-left: 43px;"></h4>
+<div class="photo_minimap_inner video-list-wrap" id="js-thumb-subctn" style="width: 720px; margin-left: 23px; top: -55px;">
+<p class="photo_minimap_roll roll_left btn-control btn-control-prev" id="js-thumb-prev" style="visibility:hidden;"><a href="javascript:;"><span></span></a></p>
+<p class="photo_minimap_roll roll_right btn-control btn-control-next" id="js-thumb-next" style="visibility: hidden;"><a href="javascript:;"><span></span></a></p>
+<div class="photo_mini_img video-list clearfix" id="js-thumbList-stage" style="overflow: hidden; margin: 0px 30px; padding: 0px; width: 660px;">
+<ul id="js-thumbList-ctn" style="margin: 0px auto; height: 50px; width: 1485px;"></ul>
+</div>
+</div>
+</div>
+<!--缩略图区E-->
+</div><div style="display: none;"><div><div accesskey="q" class="textinput textarea c_tx2" contenteditable="true" id="" spellcheck="false" style="display:none;" x:id="content_content" x:idprefix="content"></div><div accesskey="q" class="textinput textarea c_tx3" contenteditable="true" id="" tabindex="0" x:id="substitutor_content" x:idprefix="substitutor"></div><div class="mod_at_wrap" id="" style="display:none;" x:id="tips"><div class="mod_at bg bor2"><div class="mod_at_list"><div class="mod_at_tips c_tx3 bg3" id="" x:id="tips_content">正在加载中...</div></div></div></div><div id="" x:id="options"></div></div><div class="richTextBox" contenteditable="true" id="" x:id="content"></div><div class="richTextBox" contenteditable="true" id="$3_content" idprefix="$3" x:id="content"></div><div contenteditable="true" id="" tabindex="0" x:id="content"></div><div contenteditable="true" id="$4_content" idprefix="$4" style="position: absolute; display: none;" tabindex="0" x:id="content"></div></div><div style="display: none;"></div></body></html>
